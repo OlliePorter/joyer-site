@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
+import About from './About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          This is the index page.
-        </p>
-      </header>
+    <div>
+        <About/>
     </div>
   );
 }
