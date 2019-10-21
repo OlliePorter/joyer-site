@@ -1,12 +1,13 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import theme from './theme';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
     title: {
-      color: theme.palette.secondary.main,
+      color: theme.palette.primary.main,
     }
-}));
+});
 
 export default function About() {
   const classes = useStyles();
