@@ -5,6 +5,7 @@ const theme = createMuiTheme({
       primary: {
         main: '#49d0be',
         light: '#ffffff',
+        dark: '#42bdac',
       },
       secondary: {
         main: '#e91e63',
