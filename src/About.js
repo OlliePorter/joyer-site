@@ -23,14 +23,16 @@ const useStyles = makeStyles({
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       minHeight: '80vh',
+    },
+    heroOverlay: {
+      backgroundColor: 'rgba(0, 0, 0, 0.4)',
+      position: 'absolute',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-    },
-    heroOverlay: {
-      backgroundColor: 'blue',
-      minHeight: '77vh',
+      minHeight: '80vh',
+      width: '100%',
     },
     button: {
       width: '179px',
@@ -59,14 +61,16 @@ export default function About() {
     return (
     <>
       <div className={classes.heroContent}>
-        <Typography component="h2" variant="h3" align="center" className={classes.title}>
-          Love Your Clan.
-        </Typography>
-        <Typography component="h2" variant="h6" align="center" className={classes.subtitle}>
-        JOYER is a wellbeing app which cultivates relationships. It's the best way to maintain strong connections and bring balance to your social headspace.
-        </Typography>
-        <Button variant="contained" color="black" className={classes.button}>Coming Soon</Button>
-        <KeyboardArrowDownIcon className={classes.downIcon} />
+        <div className={classes.heroOverlay}>
+          <Typography component="h2" variant="h3" align="center" className={classes.title}>
+            Love Your Clan.
+          </Typography>
+          <Typography component="h2" variant="h6" align="center" className={classes.subtitle}>
+          JOYER is a wellbeing app which cultivates relationships. It's the best way to maintain strong connections and bring balance to your social headspace.
+          </Typography>
+          <Button variant="contained" className={classes.button}>Coming Soon</Button>
+          <KeyboardArrowDownIcon className={classes.downIcon} />
+        </div>
       </div>
     </>
     );
