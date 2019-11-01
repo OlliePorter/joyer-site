@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import { ReactComponent as Iphone } from './assets/iphone.svg';
 import theme from './theme';
 
 const useStyles = makeStyles({
@@ -17,23 +18,22 @@ const useStyles = makeStyles({
     },
     featureContainer: {
       backgroundColor: theme.palette.secondary.light,
-      // minHeight: '959px',
       paddingTop: '100px',
       paddingBottom: '100px',
-      // display: 'flex',
-      // flexDirection: 'column',
-      // alignItems: 'center',
-      // justifyContent: 'flex-start',
     },
     innerContainer: {
       flexGrow: 1,
-      backgroundColor: 'red',
+      textAlign: 'center',
       marginTop: '100px',
     },
     featureText: {
       padding: theme.spacing(2),
       textAlign: 'center',
     },
+    featureImage: {
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    }
 });
 
 
@@ -55,13 +55,15 @@ export default function Features() {
            <Typography className={classes.featureText}>It's simple...</Typography>
          </Grid>
          <Grid item xs>
-           <Typography className={classes.featureText}>It's simple...</Typography>
+           <Iphone className={classes.featureImage} />
          </Grid>
          <Grid item xs>
            <Typography className={classes.featureText}>It's simple...</Typography>
          </Grid>
        </Grid>
        </div>
+       <div>
+         </div>
       </div>
     </>
     );

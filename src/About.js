@@ -25,7 +25,7 @@ const useStyles = makeStyles({
       minHeight: '80vh',
     },
     heroOverlay: {
-      backgroundColor: 'rgba(0, 0, 0, 0.4)',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
       position: 'absolute',
       display: 'flex',
       flexDirection: 'column',
