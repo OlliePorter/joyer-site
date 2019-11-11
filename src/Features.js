@@ -102,7 +102,7 @@ export default function Features() {
             </div>
           </Grid>
           <Grid item xs={4} align="center">
-            <Iphone className={classes.featureImage} />
+            <Iphone/>
           </Grid>
           <Grid item xs={3}>
           <div className={classes.featureRow}>
