@@ -26,9 +26,7 @@ const useStyles = makeStyles({
       backgroundColor: theme.palette.secondary.light,
       paddingTop: '100px',
       paddingBottom: '100px',
-    },
-    featureGrid: {
-      width: '100%',
+      overflowX: 'hidden',
     },
     featurePadding: {
       paddingBottom: '20px',
