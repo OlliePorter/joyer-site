@@ -39,7 +39,9 @@ body {
 }
 
 .joyer-text:hover {
-  opacity: 0.8;
+  text-decoration: underline;
+  text-underline-position: under;
+  transition: 3s ease-in-out;
 }
 
 .nav-button {
@@ -50,4 +52,9 @@ body {
   color: white !important;
   border-color: white !important;
   margin-top: -8px!important;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-position: under;
 }
