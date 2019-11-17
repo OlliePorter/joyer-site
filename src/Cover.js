@@ -55,7 +55,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function Cover() {
+export default function Home() {
   const classes = useStyles();
 
     return (
