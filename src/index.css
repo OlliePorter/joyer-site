@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .outer-nav-container {
   position: absolute;
   background-color: transparent;
@@ -34,6 +38,16 @@
   font-weight: 300;
 }
 
-body {
-  margin: 0;
+.joyer-text:hover {
+  opacity: 0.8;
+}
+
+.nav-button {
+  height: 35px !important;
+  width: 90px !important;
+  border-radius: 20px !important;
+  text-transform: none !important;
+  color: white !important;
+  border-color: white !important;
+  margin-top: -8px!important;
 }
