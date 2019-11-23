@@ -8,8 +8,8 @@ import RestoreIcon from '@material-ui/icons/Restore';
 import Grid from '@material-ui/core/Grid';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
-import { ReactComponent as Iphone } from './assets/iphone.svg';
-import theme from './theme';
+import { ReactComponent as Iphone } from '../../assets/iphone.svg';
+import theme from '../../theme';
 
 const useStyles = makeStyles({
     title: {

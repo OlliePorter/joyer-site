@@ -6,11 +6,11 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Home from './Home';
-import About from './About';
-import Header from './Header';
-import SignUp from './SignUp';
-import Logo from "./assets/JOYER_APP_LOGO.png";
+import Home from '../Home/Home';
+import About from '../About/About';
+import Header from '../Header/Header';
+import SignUp from '../SignUp/SignUp';
+import Logo from '../../assets/JOYER_APP_LOGO.png';
 import Button from '@material-ui/core/Button';
 
 function App() {

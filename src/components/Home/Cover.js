@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { makeStyles } from '@material-ui/core/styles';
-import theme from './theme';
+import theme from '../../theme';
 
 const useStyles = makeStyles({
     title: {
