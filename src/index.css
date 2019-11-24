@@ -41,7 +41,6 @@ body {
 .joyer-text:hover {
   text-decoration: underline;
   text-underline-position: under;
-  transition: 3s ease-in-out;
 }
 
 .nav-button {

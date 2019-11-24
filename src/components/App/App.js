@@ -20,15 +20,15 @@ function App() {
         <ul className="outer-nav-container">
             <img src={Logo} className="joyer-logo"/>
             <div className="inner-nav-container">
-              <li><NavLink to="/" className="joyer-text">Home</NavLink></li>
-              <li><NavLink to="/about-us" className="joyer-text">About Us</NavLink></li>
-              <li><Button component={Link} variant="outlined" to="/sign-up" className="nav-button">Sign Up</Button></li>
+              <li><NavLink exact to="/" className="joyer-text">Home</NavLink></li>
+              <li><NavLink exact to="/about-us" className="joyer-text">About Us</NavLink></li>
+              <li><Button exact component={Link} variant="outlined" to="/sign-up" className="nav-button">Sign Up</Button></li>
             </div>
           </ul>
           <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/about-us" component={About}/>
-            <Route path="/sign-up" component={SignUp}/>
+            <Route exact path="/about-us" component={About}/>
+            <Route exact path="/sign-up" component={SignUp}/>
           </div>
       </div>
     </HashRouter>
