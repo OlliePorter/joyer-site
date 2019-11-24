@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import Home from '../Home/Home';
 import About from '../About/About';
-import Header from '../Header/Header';
 import SignUp from '../SignUp/SignUp';
 import Logo from '../../assets/JOYER_APP_LOGO.png';
 import Button from '@material-ui/core/Button';
@@ -18,7 +17,7 @@ function App() {
     <HashRouter>
       <div>
         <ul className="outer-nav-container">
-            <img src={Logo} className="joyer-logo"/>
+            <img src={Logo} className="joyer-logo" alt="JOYER logo"/>
             <div className="inner-nav-container">
               <li><NavLink exact to="/" className="joyer-text">Home</NavLink></li>
               <li><NavLink exact to="/about-us" className="joyer-text">About Us</NavLink></li>
