@@ -33,6 +33,11 @@ const useStyles = makeStyles({
     textAlign: 'left',
     fontWeight: 300,
   },
+  testimonialImage: {
+    width: '60px',
+    height: '60px',
+    borderRadius: '50%',
+  }
 });
 
 export default function Testimonials() {
@@ -42,12 +47,13 @@ export default function Testimonials() {
     <>
       <div className={classes.coverImage}>
         <div className={classes.coverImageOverlay}>
-          <Grid container spacing={10} align="">
+          <Grid container spacing={10}>
             <Grid item xs={4}>
               <div className={classes.testimonialContainer}>
                 <Typography className={classes.testimonialText} variant="h6">
                   "I feel so much closer to my friends after downloading this app. Go JOYER!"
                 </Typography>
+                <img src={'/lucy_f.jpg'} alt="Female Image" className={classes.testimonialImage}/>
               </div>
             </Grid>
             <Grid item xs={4}>
