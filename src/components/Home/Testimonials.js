@@ -23,8 +23,15 @@ const useStyles = makeStyles({
     width: '100%',
     overflowX: 'hidden',
   },
-  testimonialContainer: {
-    // backgroundColor: 'red',
+  testimonialRowContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    paddingRight: '120px',
+    paddingTop: '20px',
+  },
+  testimonialColumnContainer: {
+    display: 'flex',
+    flexDirection: 'column',
   },
   testimonialText: {
     color: 'white',
@@ -33,10 +40,23 @@ const useStyles = makeStyles({
     textAlign: 'left',
     fontWeight: 300,
   },
+  testimonialTextTitle: {
+    color: 'white',
+    textAlign: 'left',
+    fontWeight: 400,
+    paddingLeft: '15px',
+  },
+  testimonialTextSubtitle: {
+    color: 'white',
+    textAlign: 'left',
+    fontWeight: 300,
+    paddingLeft: '15px',
+  },
   testimonialImage: {
     width: '60px',
     height: '60px',
     borderRadius: '50%',
+    marginLeft: '20px',
   }
 });
 
@@ -49,25 +69,51 @@ export default function Testimonials() {
         <div className={classes.coverImageOverlay}>
           <Grid container spacing={10}>
             <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
-                <Typography className={classes.testimonialText} variant="h6">
-                  "I feel so much closer to my friends after downloading this app. Go JOYER!"
-                </Typography>
+              <Typography className={classes.testimonialText} variant="h6">
+                "I feel so much closer to my friends after downloading this app. Go JOYER!"
+              </Typography>
+              <div className={classes.testimonialRowContainer}>
                 <img src={'/lucy_f.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                <div className={classes.testimonialColumnContainer}>
+                  <Typography className={classes.testimonialTextTitle} variant="body1">
+                    Lucy F
+                  </Typography>
+                  <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                    Early Joyager
+                  </Typography>
+                </div>
               </div>
             </Grid>
             <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
-                <Typography className={classes.testimonialText} variant="h6">
-                  "I love being able to set reminders to catch up with my network."
-                </Typography>
+              <Typography className={classes.testimonialText} variant="h6">
+                "I love being able to set reminders to catch up with my network."
+              </Typography>
+              <div className={classes.testimonialRowContainer}>
+                <img src={'/frederick_s.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                <div className={classes.testimonialColumnContainer}>
+                  <Typography className={classes.testimonialTextTitle} variant="body1">
+                    Frederick S
+                  </Typography>
+                  <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                    Early Joyager
+                  </Typography>
+                </div>
               </div>
             </Grid>
             <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
-                <Typography className={classes.testimonialText} variant="h6">
-                  "Blind get-togethers is such a good feature! A must download."
-                </Typography>
+              <Typography className={classes.testimonialText} variant="h6">
+                "Joy Coins are great! Hands down the best way to earn money off food and drinks."
+              </Typography>
+              <div className={classes.testimonialRowContainer}>
+                <img src={'/gabbie_h.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                <div className={classes.testimonialColumnContainer}>
+                  <Typography className={classes.testimonialTextTitle} variant="body1">
+                    Gabbie H
+                  </Typography>
+                  <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                    Early Joyager
+                  </Typography>
+                </div>
               </div>
             </Grid>
           </Grid>
