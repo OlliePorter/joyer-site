@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    minHeight: '45vh',
+    minHeight: '40vh',
   },
   coverImageOverlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -19,20 +19,48 @@ const useStyles = makeStyles({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: '45vh',
+    minHeight: '40vh',
     width: '100%',
     overflowX: 'hidden',
   },
-  testimonialContainer: {
-    // backgroundColor: 'red',
+  coverPadding: {
+    marginLeft: '200px',
+    marginRight: '200px',
+  },
+  testimonialRowContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    paddingRight: '120px',
+    paddingTop: '20px',
+  },
+  testimonialColumnContainer: {
+    display: 'flex',
+    flexDirection: 'column',
   },
   testimonialText: {
     color: 'white',
-    paddingLeft: '120px',
-    paddingRight: '120px',
+    paddingLeft: '50px',
+    paddingRight: '50px',
     textAlign: 'left',
     fontWeight: 300,
   },
+  testimonialTextTitle: {
+    color: 'white',
+    textAlign: 'left',
+    fontWeight: 400,
+    paddingLeft: '15px',
+  },
+  testimonialTextSubtitle: {
+    color: 'white',
+    textAlign: 'left',
+    fontWeight: 300,
+    paddingLeft: '15px',
+  },
+  testimonialImage: {
+    width: '60px',
+    height: '60px',
+    borderRadius: '50%',
+  }
 });
 
 export default function Testimonials() {
@@ -42,29 +70,58 @@ export default function Testimonials() {
     <>
       <div className={classes.coverImage}>
         <div className={classes.coverImageOverlay}>
-          <Grid container spacing={10} align="">
-            <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
+          <div className={classes.coverPadding}>
+            <Grid container spacing={10}>
+              <Grid item xs={4}>
                 <Typography className={classes.testimonialText} variant="h6">
                   "I feel so much closer to my friends after downloading this app. Go JOYER!"
                 </Typography>
-              </div>
-            </Grid>
-            <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
+                <div className={classes.testimonialRowContainer}>
+                  <img src={'/lucy_f.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <div className={classes.testimonialColumnContainer}>
+                    <Typography className={classes.testimonialTextTitle} variant="body1">
+                      Lucy F
+                    </Typography>
+                    <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                      Early Joyager
+                    </Typography>
+                  </div>
+                </div>
+              </Grid>
+              <Grid item xs={4}>
                 <Typography className={classes.testimonialText} variant="h6">
                   "I love being able to set reminders to catch up with my network."
                 </Typography>
-              </div>
-            </Grid>
-            <Grid item xs={4}>
-              <div className={classes.testimonialContainer}>
+                <div className={classes.testimonialRowContainer}>
+                  <img src={'/frederick_s.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <div className={classes.testimonialColumnContainer}>
+                    <Typography className={classes.testimonialTextTitle} variant="body1">
+                      Frederick S
+                    </Typography>
+                    <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                      Early Joyager
+                    </Typography>
+                  </div>
+                </div>
+              </Grid>
+              <Grid item xs={4}>
                 <Typography className={classes.testimonialText} variant="h6">
-                  "Blind get-togethers is such a good feature! A must download."
+                  "Joy Coins are great! Hands down the best way to earn money off food and drinks."
                 </Typography>
-              </div>
+                <div className={classes.testimonialRowContainer}>
+                  <img src={'/gabbie_h.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <div className={classes.testimonialColumnContainer}>
+                    <Typography className={classes.testimonialTextTitle} variant="body1">
+                      Gabbie H
+                    </Typography>
+                    <Typography className={classes.testimonialTextSubtitle} variant="body1">
+                      Early Joyager
+                    </Typography>
+                  </div>
+                </div>
+              </Grid>
             </Grid>
-          </Grid>
+          </div>
         </div>
       </div>
     </>
