@@ -4,38 +4,87 @@ import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
 
 const useStyles = makeStyles({
+  signUpBackground: {
+    height: '100%',
+    backgroundColor: theme.palette.secondary.light,
+    textAlign: 'center',
+    padding: '70px',
+  },
   title: {
     color: theme.palette.secondary.dark,
     fontWeight: 300,
-    paddingTop: '100px',
     padding: '10px',
   },
   subtitle: {
     color: theme.palette.secondary.dark,
     padding: '8px',
     fontWeight: 300,
+    paddingBottom: '70px',
   },
+  nameInput: {
+    padding: '8px 16px',
+    lineHeight: '1.428571429',
+    margin: '15px',
+    border: '1px solid #cccc',
+    borderRadius: '2px',
+    textShadow: 'none',
+    height: '20px',
+    width: '100px',
+    fontSize: '15px',
+    fontFamily: 'roboto',
+  },
+  emailInput: {
+    padding: '8px 16px',
+    lineHeight: '1.428571429',
+    margin: '15px',
+    border: '1px solid #cccc',
+    borderRadius: '2px',
+    textShadow: 'none',
+    height: '20px',
+    width: '263px',
+    fontSize: '15px',
+    fontFamily: 'roboto',
+  },
+  signUpButton: {
+    fontSize: '15px',
+    borderRadius: '24px',
+    width: '150px',
+    height: '40px',
+    padding: '8px 16px',
+    fontFamily: 'roboto',
+    fontWeight: 400,
+    borderColor: '#1e1e1e',
+    backgroundColor: '#444',
+    color: 'white',
+    margin: '15px',
+    cursor: 'pointer',
+    verticalAlign: 'middle',
+  }
 });
 
 export default function SignUpForm() {
   const classes = useStyles();
 
     return (
-    <>
-      <Typography component="h2" variant="h4" className={classes.title} align="center">
+    <div className={classes.signUpBackground}>
+      <Typography component="h2" variant="h4" className={classes.title}>
       Become a Joyager
       </Typography>
-      <Typography component="p" className={classes.subtitle} align="center">
+      <Typography component="p" className={classes.subtitle}>
       Subscribe for the latest updates.
       </Typography>
-    <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+      <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
         <div className="mc-field-group">
-          <input type="text" name="FNAME" className id="mce-FNAME" placeholder="First name"/>
-          <input type="text" name="LNAME" className id="mce-LNAME" placeholder="Last name"/>
+          <input type="text" name="FNAME" className={classes.nameInput} id="mce-FNAME" placeholder="First name"/>
+          <input type="text" name="LNAME" className={classes.nameInput} id="mce-LNAME" placeholder="Last name"/>
         </div>
-          <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Email"/>
-      <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button"/>
-    </form>
-    </>
+        <div>
+          <input type="email" name="EMAIL" className={classes.emailInput} id="mce-EMAIL" placeholder="Email"/>
+        </div>
+        <div>
+          <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign up" className={classes.signUpButton}/>
+        </div>
+      </form>
+    </div>
     );
 }
