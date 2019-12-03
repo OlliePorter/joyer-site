@@ -22,16 +22,20 @@ const useStyles = makeStyles({
     paddingBottom: '70px',
   },
   nameInput: {
-    padding: '8px 16px',
+    padding: '8px 15px',
     lineHeight: '1.428571429',
     margin: '15px',
     border: '1px solid #cccc',
     borderRadius: '2px',
     textShadow: 'none',
     height: '20px',
-    width: '100px',
+    width: '150px',
     fontSize: '15px',
     fontFamily: 'roboto',
+    "&:focus": {
+      outline: 'none',
+      border: '1px solid #49d0be',
+    },
   },
   emailInput: {
     padding: '8px 16px',
@@ -41,9 +45,13 @@ const useStyles = makeStyles({
     borderRadius: '2px',
     textShadow: 'none',
     height: '20px',
-    width: '263px',
+    width: '360px',
     fontSize: '15px',
     fontFamily: 'roboto',
+    "&:focus": {
+      outline: 'none',
+      border: '1px solid #49d0be',
+    },
   },
   signUpButton: {
     fontSize: '15px',
@@ -59,6 +67,9 @@ const useStyles = makeStyles({
     margin: '15px',
     cursor: 'pointer',
     verticalAlign: 'middle',
+    "&:hover": {
+      backgroundColor: '#333',
+    },
   }
 });
 
@@ -75,14 +86,14 @@ export default function SignUpForm() {
       </Typography>
       <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
         <div className="mc-field-group">
-          <input type="text" name="FNAME" className={classes.nameInput} id="mce-FNAME" placeholder="First name"/>
-          <input type="text" name="LNAME" className={classes.nameInput} id="mce-LNAME" placeholder="Last name"/>
+          <input type="text" name="FNAME" className={classes.nameInput} id="mce-FNAME" placeholder="First Name"/>
+          <input type="text" name="LNAME" className={classes.nameInput} id="mce-LNAME" placeholder="Last Name"/>
         </div>
         <div>
           <input type="email" name="EMAIL" className={classes.emailInput} id="mce-EMAIL" placeholder="Email"/>
         </div>
         <div>
-          <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign up" className={classes.signUpButton}/>
+          <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign Up" className={classes.signUpButton}/>
         </div>
       </form>
     </div>
