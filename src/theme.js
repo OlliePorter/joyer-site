@@ -14,6 +14,7 @@ const theme = createMuiTheme({
       },
       footer: {
         dark: '#292e31',
+        light: '#d2d2d2',
         icon: '#4f5356',
         iconHover: '#8e979d',
       },
