@@ -36,6 +36,7 @@ const useStyles = makeStyles({
   footerRow: {
     display: 'flex',
     flexDirection: 'row',
+    textDecoration: 'none',
   },
   footerTextSubtitle: {
     color: theme.palette.footer.light,
@@ -58,9 +59,9 @@ const useStyles = makeStyles({
   footerIconSmall: {
     color: theme.palette.footer.light,
     marginRight: '10px',
-    marginTop: '3px',
+    marginTop: '10px',
     marginBottom: '10px',
-  }
+  },
 });
 
 export default function Footer() {
@@ -73,7 +74,7 @@ export default function Footer() {
               <Grid container spacing={10}>
                 <Grid item xs={4}>
                   <div className={classes.footerColumn}>
-                    <Typography className={classes.footerTextTitle} variant="body1">
+                    y<Typography className={classes.footerTextTitle} variant="body1">
                       Connect
                     </Typography>
                     <div className={classes.footerBorder}></div>
@@ -90,18 +91,18 @@ export default function Footer() {
                         Contact Info
                       </Typography>
                       <span className={classes.footerBorder}></span>
-                      <div className={classes.footerRow}>
+                      <a href="mailto:hello@joyerapp.com" className={classes.footerRow}>
                         <DraftsIcon className={classes.footerIconSmall}/>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
-                          hello@joyerapp.com
+                        hello@joyerapp.com
                         </Typography>
-                      </div>
-                      <div className={classes.footerRow}>
+                      </a>
+                      <a href="" className={classes.footerRow}>
                         <MapIcon className={classes.footerIconSmall}/>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
                           London
                         </Typography>
-                      </div>
+                      </a>
                   </div>
                 </Grid>
                 <Grid item xs={4}>
