@@ -25,6 +25,7 @@ const useStyles = makeStyles({
     justifyContent: 'center',
     paddingLeft: '30px',
     paddingRight: '40px',
+    paddingTop: '20px',
     flexDirection: 'column',
   },
   footerTextTitle: {
@@ -36,10 +37,13 @@ const useStyles = makeStyles({
   footerRow: {
     display: 'flex',
     flexDirection: 'row',
+    color: theme.palette.footer.light,
     textDecoration: 'none',
+    "&:hover": {
+      color: '#fff',
+    },
   },
   footerTextSubtitle: {
-    color: theme.palette.footer.light,
     fontWeight: 300,
     marginBottom: '10px',
   },
@@ -57,9 +61,8 @@ const useStyles = makeStyles({
     },
   },
   footerIconSmall: {
-    color: theme.palette.footer.light,
     marginRight: '10px',
-    marginTop: '10px',
+    marginTop: '2px',
     marginBottom: '10px',
   },
 });
@@ -74,7 +77,7 @@ export default function Footer() {
               <Grid container spacing={10}>
                 <Grid item xs={4}>
                   <div className={classes.footerColumn}>
-                    y<Typography className={classes.footerTextTitle} variant="body1">
+                    <Typography className={classes.footerTextTitle} variant="body1">
                       Connect
                     </Typography>
                     <div className={classes.footerBorder}></div>
@@ -82,6 +85,7 @@ export default function Footer() {
                       <FacebookIcon className={classes.footerIcon} onClick={()=> window.open("https://facebook.com/joyerapp", "_blank")}/>
                       <TwitterIcon className={classes.footerIcon} onClick={()=> window.open("https://twitter.com/joyer_app", "_blank")}/>
                       <InstagramIcon className={classes.footerIcon} onClick={()=> window.open("https://instagram.com/joyer_app", "_blank")}/>
+                      <div className={classes.footerSpacing}></div>
                     </div>
                   </div>
                 </Grid>
@@ -111,12 +115,16 @@ export default function Footer() {
                         Legal
                       </Typography>
                     <div className={classes.footerBorder}></div>
-                      <Typography className={classes.footerTextSubtitle} variant="subtitle1">
-                        Terms and Conditions
-                      </Typography>
-                      <Typography className={classes.footerTextSubtitle} variant="subtitle1">
-                        Privacy Policy
-                      </Typography>
+                      <a href="https://drive.google.com/file/d/1CQFASq1SP3kqRxThlgYJTuEzpHqbfwOC/view" target="_blank" className={classes.footerRow}>
+                        <Typography className={classes.footerTextSubtitle} variant="subtitle1">
+                          Terms and Conditions
+                        </Typography>
+                      </a>
+                      <a href="https://drive.google.com/file/d/1fCh3jzo2QsYZyfmWP1MJakbFHaqdS9jm/view" target="_blank" className={classes.footerRow}>
+                        <Typography className={classes.footerTextSubtitle} variant="subtitle1">
+                          Privacy Policy
+                        </Typography>
+                      </a>
                   </div>
                 </Grid>
               </Grid>
