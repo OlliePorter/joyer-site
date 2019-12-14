@@ -11,9 +11,12 @@ const useStyles = makeStyles({
       color: theme.palette.primary.light,
       fontWeight: 300,
       margin: '20px',
-      [theme.breakpoints.down('sm')]: {
+      [theme.breakpoints.down('md')]: {
         margin: '30px',
         paddingTop: '20px',
+      },
+      [theme.breakpoints.down('sm')]: {
+        paddingTop: '80px',
       },
     },
     subtitle: {
@@ -66,8 +69,8 @@ const useStyles = makeStyles({
       transform: 'scale(1.5)',
       position: 'relative',
       top: '200px',
-      [theme.breakpoints.down('sm')]: {
-        top: '50px',
+      [theme.breakpoints.up('xs')]: {
+        top: '38px',
       },
     },
 });

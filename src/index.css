@@ -66,9 +66,18 @@ body {
 @media only screen and (max-width: 600px) {
   .joyer-logo {
     padding-right: 0em;
-    padding-top: 1.7em;
+    padding-top: 1.6em;
   }
   ul {
     padding-inline-start: 0px;
+  }
+  .joyer-text {
+    padding-right: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .joyer-logo {
+    display: none;
   }
 }
