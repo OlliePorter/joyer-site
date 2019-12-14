@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+#root {
+  overflow: hidden;
+}
+
 .outer-nav-container {
   position: absolute;
   background-color: transparent;
@@ -13,6 +17,7 @@ body {
   height: 70px;
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .inner-nav-container {
@@ -56,4 +61,14 @@ body {
 .active {
   text-decoration: underline;
   text-underline-position: under;
+}
+
+@media only screen and (max-width: 600px) {
+  .joyer-logo {
+    padding-right: 0em;
+    padding-top: 1.7em;
+  }
+  ul {
+    padding-inline-start: 0px;
+  }
 }

@@ -4,12 +4,13 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles({
     title: {
       color: theme.palette.primary.light,
       fontWeight: 300,
-      margin: '20px'
+      margin: '20px',
     },
     subtitle: {
       color: theme.palette.primary.light,
@@ -23,6 +24,9 @@ const useStyles = makeStyles({
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       minHeight: '80vh',
+      [theme.breakpoints.down('sm')]: {
+        minHeight: '90vh',
+      },
     },
     heroOverlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -33,6 +37,9 @@ const useStyles = makeStyles({
       justifyContent: 'center',
       minHeight: '80vh',
       width: '100%',
+      [theme.breakpoints.down('sm')]: {
+        minHeight: '90vh',
+      },
     },
     button: {
       width: '179px',
@@ -56,6 +63,7 @@ const useStyles = makeStyles({
 });
 
 export default function Home() {
+  const matches = useMediaQuery('(min-width:600px)');
   const classes = useStyles();
 
     return (
