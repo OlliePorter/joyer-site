@@ -60,7 +60,13 @@ const useStyles = makeStyles({
     width: '60px',
     height: '60px',
     borderRadius: '50%',
-  }
+  },
+  featureIcon: {
+    color: 'black',
+    transform: 'scale(1.5)',
+    paddingTop: '20px',
+    paddingLeft: '20px',
+  },
 });
 
 export default function Testimonials() {
