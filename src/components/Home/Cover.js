@@ -11,12 +11,19 @@ const useStyles = makeStyles({
       color: theme.palette.primary.light,
       fontWeight: 300,
       margin: '20px',
+      [theme.breakpoints.down('sm')]: {
+        margin: '30px',
+        paddingTop: '20px',
+      },
     },
     subtitle: {
       color: theme.palette.primary.light,
       padding: '8px',
       fontWeight: 300,
       width: '60%',
+      [theme.breakpoints.down('sm')]: {
+        width: '80%',
+      },
     },
     heroContent: {
       backgroundImage: 'url(/joyer-group.png)',
@@ -59,6 +66,9 @@ const useStyles = makeStyles({
       transform: 'scale(1.5)',
       position: 'relative',
       top: '200px',
+      [theme.breakpoints.down('sm')]: {
+        top: '50px',
+      },
     },
 });
 
