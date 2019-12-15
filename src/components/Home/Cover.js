@@ -13,10 +13,7 @@ const useStyles = makeStyles({
       margin: '20px',
       [theme.breakpoints.down('md')]: {
         margin: '30px',
-        paddingTop: '20px',
-      },
-      [theme.breakpoints.down('sm')]: {
-        paddingTop: '80px',
+        paddingTop: '30px',
       },
     },
     subtitle: {
@@ -69,7 +66,7 @@ const useStyles = makeStyles({
       transform: 'scale(1.5)',
       position: 'relative',
       top: '200px',
-      [theme.breakpoints.up('xs')]: {
+      [theme.breakpoints.down('xs')]: {
         top: '38px',
       },
     },
