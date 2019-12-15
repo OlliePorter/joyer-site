@@ -36,6 +36,12 @@ const useStyles = makeStyles({
       paddingTop: '20px',
       paddingLeft: '20px',
     },
+    featureGrid: {
+      [theme.breakpoints.down('md')]: {
+        display: 'flex',
+        flexDirection: 'column',
+      },
+    },
     featureRow: {
       display: 'flex',
       flexDirection: 'row',
