@@ -42,7 +42,7 @@ const useStyles = makeStyles({
       padding: '100px',
       overflowX: 'hidden',
       [theme.breakpoints.down('sm')]: {
-        padding: '40px',
+        padding: '1.7em',
       },
     },
     featurePadding: {
@@ -66,10 +66,10 @@ const useStyles = makeStyles({
       paddingBottom: '10px',
     },
     iPhone: {
-      [theme.breakpoints.down('md')]: {
-        margin: '-2em',
-        paddingTop: '4em',
-        paddingBottom: '4em',
+      [theme.breakpoints.down('sm')]: {
+        margin: '-1em',
+        paddingTop: '2em',
+        paddingBottom: '2em',
       },
     }
 });
