@@ -32,7 +32,7 @@ const useStyles = makeStyles({
       backgroundPosition: 'center',
       minHeight: '80vh',
       [theme.breakpoints.down('sm')]: {
-        minHeight: '90vh',
+        minHeight: '100vh',
       },
     },
     heroOverlay: {
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
       minHeight: '80vh',
       width: '100%',
       [theme.breakpoints.down('sm')]: {
-        minHeight: '90vh',
+        minHeight: '100vh',
       },
     },
     button: {
@@ -64,10 +64,10 @@ const useStyles = makeStyles({
     downIcon: {
       color: 'white',
       transform: 'scale(1.5)',
-      position: 'relative',
-      top: '200px',
+      position: 'absolute',
+      marginTop: '12em',
       [theme.breakpoints.down('xs')]: {
-        top: '38px',
+        marginTop: '11em'
       },
     },
 });
