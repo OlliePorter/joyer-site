@@ -74,6 +74,11 @@ body {
   .joyer-text {
     padding-right: 2.5em;
   }
+
+  .MuiGrid-grid-xs-4 {
+    max-width: 100% !important;
+    flex-basis: auto !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
