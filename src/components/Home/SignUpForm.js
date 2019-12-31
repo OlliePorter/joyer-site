@@ -52,6 +52,9 @@ const useStyles = makeStyles({
       outline: 'none',
       border: '1px solid #49d0be',
     },
+    [theme.breakpoints.down('sm')]: {
+      width: '150px',
+    },
   },
   signUpButton: {
     fontSize: '15px',
