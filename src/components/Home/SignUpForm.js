@@ -9,6 +9,9 @@ const useStyles = makeStyles({
     backgroundColor: theme.palette.secondary.light,
     textAlign: 'center',
     padding: '70px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '50px',
+    },
   },
   title: {
     color: theme.palette.secondary.dark,
