@@ -15,17 +15,35 @@ const useStyles = makeStyles({
     title: {
       color: theme.palette.secondary.dark,
       fontWeight: 300,
-      padding: '10px'
+      padding: '10px',
+    },
+    coverSubtitle: {
+      color: theme.palette.secondary.dark,
+      padding: '8px',
+      fontWeight: 300,
+      paddingBottom: '70px',
+      [theme.breakpoints.down('sm')]: {
+        paddingBottom: '0px',
+        width: '14em',
+      },
     },
     subtitle: {
       color: theme.palette.secondary.dark,
       padding: '8px',
       fontWeight: 300,
+      paddingBottom: '20px',
+      [theme.breakpoints.down('sm')]: {
+        paddingBottom: '0px',
+        width: '14em',
+      },
     },
     featureContainer: {
       backgroundColor: theme.palette.secondary.light,
       padding: '100px',
       overflowX: 'hidden',
+      [theme.breakpoints.down('sm')]: {
+        padding: '1.7em',
+      },
     },
     featurePadding: {
       paddingBottom: '20px',
@@ -36,10 +54,23 @@ const useStyles = makeStyles({
       paddingTop: '20px',
       paddingLeft: '20px',
     },
+    featureGrid: {
+      [theme.breakpoints.down('md')]: {
+        display: 'flex',
+        flexDirection: 'column',
+      },
+    },
     featureRow: {
       display: 'flex',
       flexDirection: 'row',
       paddingBottom: '10px',
+    },
+    iPhone: {
+      [theme.breakpoints.down('sm')]: {
+        margin: '-1em',
+        paddingTop: '2em',
+        paddingBottom: '2em',
+      },
     }
 });
 
@@ -49,12 +80,12 @@ export default function Features() {
     return (
     <>
       <div className={classes.featureContainer}>
-        <Grid container spacing={10} align="center" className={classes.featureGrid}>
+        <Grid container spacing={4} align="center" className={classes.featureGrid}>
           <Grid item xs={12}>
             <Typography component="h2" variant="h4" className={classes.title}>
             It's simple...
             </Typography>
-            <Typography component="p" className={classes.subtitle}>
+            <Typography component="p" className={classes.coverSubtitle}>
             Just Optimise Your Everyday Relationships.
             </Typography>
           </Grid>
@@ -102,7 +133,7 @@ export default function Features() {
             </div>
           </Grid>
           <Grid item xs={4} align="center">
-            <Iphone/>
+            <Iphone className={classes.iPhone}/>
           </Grid>
           <Grid item xs={3}>
           <div className={classes.featureRow}>

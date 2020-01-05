@@ -4,18 +4,26 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles({
     title: {
       color: theme.palette.primary.light,
       fontWeight: 300,
-      margin: '20px'
+      margin: '20px',
+      [theme.breakpoints.down('md')]: {
+        margin: '30px',
+        paddingTop: '30px',
+      },
     },
     subtitle: {
       color: theme.palette.primary.light,
       padding: '8px',
       fontWeight: 300,
       width: '60%',
+      [theme.breakpoints.down('sm')]: {
+        width: '80%',
+      },
     },
     heroContent: {
       backgroundImage: 'url(/joyer-group.png)',
@@ -23,6 +31,9 @@ const useStyles = makeStyles({
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       minHeight: '80vh',
+      [theme.breakpoints.down('sm')]: {
+        minHeight: '100vh',
+      },
     },
     heroOverlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -33,6 +44,9 @@ const useStyles = makeStyles({
       justifyContent: 'center',
       minHeight: '80vh',
       width: '100%',
+      [theme.breakpoints.down('sm')]: {
+        minHeight: '100vh',
+      },
     },
     button: {
       width: '179px',
@@ -50,12 +64,16 @@ const useStyles = makeStyles({
     downIcon: {
       color: 'white',
       transform: 'scale(1.5)',
-      position: 'relative',
-      top: '200px',
+      position: 'absolute',
+      marginTop: '12em',
+      [theme.breakpoints.down('xs')]: {
+        marginTop: '11em'
+      },
     },
 });
 
 export default function Home() {
+  const matches = useMediaQuery('(min-width:600px)');
   const classes = useStyles();
 
     return (

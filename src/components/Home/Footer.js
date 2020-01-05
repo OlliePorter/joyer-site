@@ -12,13 +12,14 @@ import theme from '../../theme';
 const useStyles = makeStyles({
   coverImageOverlay: {
     backgroundColor: theme.palette.footer.dark,
-    position: 'absolute',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '25vh',
+    height: '100%',
     width: '100%',
-    overflowX: 'hidden',
+    overflow: 'hidden',
+    paddingTop: '50px',
+    paddingBottom: '50px',
   },
   footerColumn: {
     display: 'flex',

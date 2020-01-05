@@ -11,6 +11,9 @@ const useStyles = makeStyles({
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     minHeight: '40vh',
+    [theme.breakpoints.down('md')]: {
+      minHeight: '40.1em',
+    },
   },
   coverImageOverlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -21,21 +24,33 @@ const useStyles = makeStyles({
     justifyContent: 'center',
     minHeight: '40vh',
     width: '100%',
-    overflowX: 'hidden',
+    overflow: 'hidden',
+    [theme.breakpoints.down('md')]: {
+      minHeight: '40.1em',
+    },
   },
   coverPadding: {
-    marginLeft: '200px',
-    marginRight: '200px',
+    [theme.breakpoints.up('md')]: {
+      marginLeft: '200px',
+      marginRight: '200px',
+    },
   },
   testimonialRowContainer: {
     display: 'flex',
     justifyContent: 'center',
     paddingRight: '120px',
     paddingTop: '20px',
+    display: 'flex',
+    flexDirection: 'row',
+    [theme.breakpoints.down('md')]: {
+      paddingTop: '10px',
+      paddingRight: '0px',
+    },
   },
   testimonialColumnContainer: {
     display: 'flex',
     flexDirection: 'column',
+    maxWidth: '100%',
   },
   testimonialText: {
     color: 'white',
@@ -43,6 +58,11 @@ const useStyles = makeStyles({
     paddingRight: '50px',
     textAlign: 'left',
     fontWeight: 300,
+    [theme.breakpoints.down('md')]: {
+      paddingLeft: '30px',
+      paddingRight: '30px',
+      textAlign: 'center',
+    },
   },
   testimonialTextTitle: {
     color: 'white',
@@ -67,6 +87,12 @@ const useStyles = makeStyles({
     paddingTop: '20px',
     paddingLeft: '20px',
   },
+  testimonialGrid: {
+    [theme.breakpoints.down('md')]: {
+      display: 'flex',
+      flexDirection: 'row',
+    },
+  }
 });
 
 export default function Testimonials() {
@@ -77,7 +103,7 @@ export default function Testimonials() {
       <div className={classes.coverImage}>
         <div className={classes.coverImageOverlay}>
           <div className={classes.coverPadding}>
-            <Grid container spacing={10}>
+            <Grid container spacing={8} className={classes.testimonialGrid}>
               <Grid item xs={4}>
                 <Typography className={classes.testimonialText} variant="h6">
                   "I feel so much closer to my friends after downloading this app. Go JOYER!"
