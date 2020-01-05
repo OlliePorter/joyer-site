@@ -13,6 +13,7 @@ const theme = createMuiTheme({
         main: '#e91e63',
         light: '#efefef',
         dark: '#000000',
+        darkAlt: '#515151'
       },
       footer: {
         dark: '#292e31',
