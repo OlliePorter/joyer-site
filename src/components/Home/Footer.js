@@ -112,7 +112,7 @@ export default function Footer() {
                 </Grid>
                 <Grid item xs={4}>
                   <div className={classes.footerColumn}>
-                      <Typography className={classes.footerTextTitle} component="subtitle1">
+                      <Typography className={classes.footerTextTitle} variant="subtitle1">
                         Legal
                       </Typography>
                     <div className={classes.footerBorder}></div>

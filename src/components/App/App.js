@@ -21,7 +21,7 @@ function App() {
             <div className="inner-nav-container">
               <li><NavLink exact to="/" className="joyer-text">Home</NavLink></li>
               <li><NavLink exact to="/about-us" className="joyer-text">About Us</NavLink></li>
-              <li><Button exact component={Link} variant="outlined" to="/sign-up" className="nav-button">Sign Up</Button></li>
+              <li><Button component={Link} variant="outlined" to="/sign-up" className="nav-button">Sign Up</Button></li>
             </div>
           </ul>
           <div>

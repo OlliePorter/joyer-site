@@ -72,7 +72,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function Home() {
+export default function Cover() {
   const matches = useMediaQuery('(min-width:600px)');
   const classes = useStyles();
 
