@@ -1,11 +1,9 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import Cover from './Cover';
 import MissionBio from './MissionBio';
 import Stats from './Stats';
 import Team from './Team';
-import { makeStyles } from '@material-ui/core/styles';
-import theme from '../../theme';
+import Footer from '../Home/Footer';
 
 export default function About() {
     return (
@@ -14,6 +12,7 @@ export default function About() {
       <MissionBio/>
       <Stats/>
       <Team/>
+      <Footer/>
     </>
     );
 }
