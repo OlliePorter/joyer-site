@@ -23,6 +23,9 @@ const useStyles = makeStyles({
     justifyContent: 'space-around',
     paddingTop: '1.5em',
     paddingBottom: '3.5em',
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column',
+    },
   }
 });
 
