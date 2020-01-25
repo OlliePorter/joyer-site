@@ -3,7 +3,6 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
 import TeamCard from './TeamCard';
-import { FormHelperText } from '@material-ui/core';
 
 const useStyles = makeStyles({
   teamBackground: {
