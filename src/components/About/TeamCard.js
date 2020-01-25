@@ -12,15 +12,16 @@ import theme from '../../theme';
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 380,
+    width: 380,
     [theme.breakpoints.down('sm')]: {
       marginBottom: '40px',
+      width: '90vw',
     },
   },
   media: {
     height: 420,
     [theme.breakpoints.down('sm')]: {
-      height: 280,
+      height: 350,
     },
   },
   cardIcon: {

@@ -9,6 +9,9 @@ const useStyles = makeStyles({
   teamBackground: {
     backgroundColor: theme.palette.primary.altLight,
     padding: '3em',
+    [theme.breakpoints.down('sm')]: {
+      padding: 0,
+    },
   },
   title: {
     color: theme.palette.primary.altDark,
@@ -25,6 +28,8 @@ const useStyles = makeStyles({
     paddingBottom: '3.5em',
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
     },
   }
 });
