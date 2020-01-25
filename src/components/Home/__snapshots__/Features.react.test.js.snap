@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features renders correctly 1`] = `
+<div
+  className="makeStyles-featureContainer-4"
+>
+  <div
+    align="center"
+    className="MuiGrid-root makeStyles-featureGrid-7 MuiGrid-container MuiGrid-spacing-xs-4"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h2
+        className="MuiTypography-root makeStyles-title-1 MuiTypography-h4"
+      >
+        It's simple...
+      </h2>
+      <p
+        className="MuiTypography-root makeStyles-coverSubtitle-2 MuiTypography-body1"
+      >
+        Just Optimise Your Everyday Relationships.
+      </p>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Start your Joyage
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            It all starts with your personalised social journey (or 'Joyage'). Navigate weekly challenges in your Joyage to see more friends & earn rewards.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 21c-1.39 0-2.78-.47-4-1.32-2.44 1.71-5.56 1.71-8 0C6.78 20.53 5.39 21 4 21H2v2h2c1.38 0 2.74-.35 4-.99 2.52 1.29 5.48 1.29 8 0 1.26.65 2.62.99 4 .99h2v-2h-2zM3.95 19H4c1.6 0 3.02-.88 4-2 .98 1.12 2.4 2 4 2s3.02-.88 4-2c.98 1.12 2.4 2 4 2h.05l1.89-6.68c.08-.26.06-.54-.06-.78s-.34-.42-.6-.5L20 10.62V6c0-1.1-.9-2-2-2h-3V1H9v3H6c-1.1 0-2 .9-2 2v4.62l-1.29.42c-.26.08-.48.26-.6.5s-.15.52-.06.78L3.95 19zM6 6h12v3.97L12 8 6 9.97V6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Reminders, notes & scheduling
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Never miss a beat with notes, reminders and scheduling. You'll get a nudge when you need to check in with friends or meet up with someone special.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Expert recall
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Stay on top of every small detail, from important conversation topics to the name of that new acquaintance.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      align="center"
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <svg
+        className="makeStyles-iPhone-9"
+      >
+        iphone.svg
+      </svg>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Curated Moments
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            We'll propose tailor made activities for you and your friends based upon your interests and what's nearby. Make your Moments unforgettable.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Earn Joy Coin
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from a magical coffee or an artisan cocktail.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            For everyone
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            For introverts, extroverts & not-a-lot-of-time-troverts. JOYER is the greatest tool in anyone's social arsenal.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.5 12c1.38 0 2.49-1.12 2.49-2.5S17.88 7 16.5 7C15.12 7 14 8.12 14 9.5s1.12 2.5 2.5 2.5zM9 11c1.66 0 2.99-1.34 2.99-3S10.66 5 9 5C7.34 5 6 6.34 6 8s1.34 3 3 3zm7.5 3c-1.83 0-5.5.92-5.5 2.75V19h11v-2.25c0-1.83-3.67-2.75-5.5-2.75zM9 13c-2.33 0-7 1.17-7 3.5V19h7v-2.25c0-.85.33-2.34 2.37-3.47C10.5 13.1 9.66 13 9 13z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+    />
+  </div>
+</div>
+`;
+
+exports[`Features renders correctly 1`] = `
+<div
+  className="makeStyles-featureContainer-4"
+>
+  <div
+    align="center"
+    className="MuiGrid-root makeStyles-featureGrid-7 MuiGrid-container MuiGrid-spacing-xs-4"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h2
+        className="MuiTypography-root makeStyles-title-1 MuiTypography-h4"
+      >
+        It's simple...
+      </h2>
+      <p
+        className="MuiTypography-root makeStyles-coverSubtitle-2 MuiTypography-body1"
+      >
+        Just Optimise Your Everyday Relationships.
+      </p>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Start your Joyage
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            It all starts with your personalised social journey (or 'Joyage'). Navigate weekly challenges in your Joyage to see more friends & earn rewards.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 21c-1.39 0-2.78-.47-4-1.32-2.44 1.71-5.56 1.71-8 0C6.78 20.53 5.39 21 4 21H2v2h2c1.38 0 2.74-.35 4-.99 2.52 1.29 5.48 1.29 8 0 1.26.65 2.62.99 4 .99h2v-2h-2zM3.95 19H4c1.6 0 3.02-.88 4-2 .98 1.12 2.4 2 4 2s3.02-.88 4-2c.98 1.12 2.4 2 4 2h.05l1.89-6.68c.08-.26.06-.54-.06-.78s-.34-.42-.6-.5L20 10.62V6c0-1.1-.9-2-2-2h-3V1H9v3H6c-1.1 0-2 .9-2 2v4.62l-1.29.42c-.26.08-.48.26-.6.5s-.15.52-.06.78L3.95 19zM6 6h12v3.97L12 8 6 9.97V6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Reminders, notes & scheduling
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Never miss a beat with notes, reminders and scheduling. You'll get a nudge when you need to check in with friends or meet up with someone special.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Expert recall
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Stay on top of every small detail, from important conversation topics to the name of that new acquaintance.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      align="center"
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <svg
+        className="makeStyles-iPhone-9"
+      >
+        iphone.svg
+      </svg>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Curated Moments
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            We'll propose tailor made activities for you and your friends based upon your interests and what's nearby. Make your Moments unforgettable.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            Earn Joy Coin
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from a magical coffee or an artisan cocktail.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="makeStyles-featureRow-8"
+      >
+        <div>
+          <h2
+            className="MuiTypography-root makeStyles-title-1 MuiTypography-h5 MuiTypography-alignRight"
+          >
+            For everyone
+          </h2>
+          <p
+            className="MuiTypography-root makeStyles-subtitle-3 MuiTypography-body1 MuiTypography-alignRight"
+          >
+            For introverts, extroverts & not-a-lot-of-time-troverts. JOYER is the greatest tool in anyone's social arsenal.
+          </p>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-featureIcon-6"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.5 12c1.38 0 2.49-1.12 2.49-2.5S17.88 7 16.5 7C15.12 7 14 8.12 14 9.5s1.12 2.5 2.5 2.5zM9 11c1.66 0 2.99-1.34 2.99-3S10.66 5 9 5C7.34 5 6 6.34 6 8s1.34 3 3 3zm7.5 3c-1.83 0-5.5.92-5.5 2.75V19h11v-2.25c0-1.83-3.67-2.75-5.5-2.75zM9 13c-2.33 0-7 1.17-7 3.5V19h7v-2.25c0-.85.33-2.34 2.37-3.47C10.5 13.1 9.66 13 9 13z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+    />
+  </div>
+</div>
+`;

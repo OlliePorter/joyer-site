@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cover renders correctly 1`] = `
+<div
+  className="makeStyles-heroContent-3"
+>
+  <div
+    className="makeStyles-heroOverlay-4"
+  >
+    <h2
+      className="MuiTypography-root makeStyles-title-1 MuiTypography-h3 MuiTypography-alignCenter"
+    >
+      Our Mission:
+    </h2>
+    <h2
+      className="MuiTypography-root makeStyles-subtitle-2 MuiTypography-h6 MuiTypography-alignCenter"
+    >
+      Promote collective wellbeing through stronger, healthier relationships.
+    </h2>
+  </div>
+</div>
+`;

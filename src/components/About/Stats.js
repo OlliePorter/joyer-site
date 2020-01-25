@@ -10,7 +10,6 @@ import theme from '../../theme';
 const useStyles = makeStyles({
   coverBackground: {
     backgroundColor: theme.palette.primary.light,
-    position: 'absolute',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

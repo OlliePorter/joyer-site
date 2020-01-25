@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cover renders correctly 1`] = `
+<div
+  className="makeStyles-missionBackground-3"
+>
+  <div
+    className="makeStyles-circleBackground-4"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root makeStyles-speechIcon-5"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
+      />
+    </svg>
+  </div>
+  <p
+    className="MuiTypography-root makeStyles-aboutText-1 MuiTypography-body1"
+  >
+    We live in a hyperconnected world driven by endless chimes and beeps of continuously arriving text messages, Tweets and Facebook updates. This interconnectivity has revolutionised the way we communicate, but today many of us find it difficult to maintain close relationships with everyone in our social circle. This is because of the busyness of our daily lives, extensive social media connections and no standardised tool to promote face-to-face contact.
+  </p>
+  <p
+    className="MuiTypography-root makeStyles-aboutText-1 MuiTypography-body1"
+  >
+    We believe in a world where social still has a soul. Where the quality of our interpersonal relationships are valued higher than extensive social circles.
+  </p>
+  <p
+    className="MuiTypography-root makeStyles-aboutText-1 MuiTypography-body1"
+  >
+    JOYER is a social app which promotes the authenticity of connection through memorable offline interactions, relationship cultivation and contextual reminders. We hope you love it as much as we do.
+  </p>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-2"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Find out more
+    </span>
+  </button>
+</div>
+`;
