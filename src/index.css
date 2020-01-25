@@ -22,10 +22,11 @@ body {
 
 .inner-nav-container {
   display: flex;
-  justify-content: right;
+  justify-content: space-evenly;
   flex-direction: row;
   list-style-type: none;
   margin-top: 2em;
+  width: 20em;
 }
 
 .joyer-logo {
@@ -37,15 +38,14 @@ body {
 
 .joyer-text {
   color: white;
-  padding-right: 3em;
   text-decoration: none;
   font-family: roboto;
   font-weight: 300;
 }
 
 .joyer-text:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+  border-bottom:1px solid white;
+  padding-bottom:2px;
 }
 
 .nav-button {
@@ -59,8 +59,8 @@ body {
 }
 
 .active {
-  text-decoration: underline;
-  text-underline-position: under;
+  border-bottom:1px solid white;
+  padding-bottom:2px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -70,9 +70,6 @@ body {
   }
   ul {
     padding-inline-start: 0px;
-  }
-  .joyer-text {
-    padding-right: 2.5em;
   }
 
   .MuiGrid-grid-xs-4 {
