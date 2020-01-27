@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
+import SignUpForm from '../Home/SignUpForm'
 
 const useStyles = makeStyles ({
   signUpContainer: {
@@ -21,6 +22,14 @@ const useStyles = makeStyles ({
     minHeight: '100vh',
     width: '100%',
   },
+  signUpRoundedCorners: {
+    width: '35em',
+    height: '35em',
+    backgroundColor: 'white',
+    borderRadius: '30px',
+    opacity: '0.9',
+    border: '1px solid #CCCCCC',
+  }
 });
 
 export default function SignUp() {
@@ -29,7 +38,9 @@ export default function SignUp() {
   return(
     <div className={classes.signUpContainer}>
       <div className={classes.signUpContainerOverlay}>
-
+        <div className={classes.signUpRoundedCorners}>
+          <SignUpForm/>
+        </div>
       </div>
     </div>
   );

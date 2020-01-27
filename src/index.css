@@ -44,8 +44,10 @@ body {
 }
 
 .joyer-text:hover {
-  border-bottom:1px solid white;
-  padding-bottom:2px;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
 }
 
 .nav-button {
@@ -67,6 +69,7 @@ body {
   .joyer-logo {
     padding-right: 0em;
     padding-top: 1.6em;
+    padding-left: 1em;
   }
   ul {
     padding-inline-start: 0px;
