@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp renders correctly 1`] = `
+<div
+  className="makeStyles-signUpContainer-1"
+>
+  <div
+    className="makeStyles-signUpContainerOverlay-2"
+  >
+    <div
+      className="makeStyles-signUpRoundedCorners-3"
+    >
+      <h2
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-h4"
+      >
+        Become a Joyager
+      </h2>
+      <p
+        className="MuiTypography-root makeStyles-subtitle-5 MuiTypography-body1"
+      >
+        Subscribe for the latest updates.
+      </p>
+      <form
+        action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c"
+        id="mc-embedded-subscribe-form"
+        method="post"
+        name="mc-embedded-subscribe-form"
+        target="_blank"
+      >
+        <div
+          className="mc-field-group"
+        >
+          <input
+            className="makeStyles-nameInput-6"
+            id="mce-FNAME"
+            name="FNAME"
+            placeholder="First Name"
+            type="text"
+          />
+          <input
+            className="makeStyles-nameInput-6"
+            id="mce-LNAME"
+            name="LNAME"
+            placeholder="Last Name"
+            type="text"
+          />
+        </div>
+        <div>
+          <input
+            className="makeStyles-emailInput-7"
+            id="mce-EMAIL"
+            name="EMAIL"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <div>
+          <input
+            className="makeStyles-signUpButton-8"
+            id="mc-embedded-subscribe"
+            name="subscribe"
+            type="submit"
+            value="Sign Up"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
