@@ -39,10 +39,19 @@ const useStyles = makeStyles({
     },
     featureContainer: {
       backgroundColor: theme.palette.secondary.light,
-      padding: '100px',
       overflowX: 'hidden',
       [theme.breakpoints.down('sm')]: {
         padding: '1.7em',
+      },
+      [theme.breakpoints.up('sm')]: {
+        paddingLeft: '14em',
+        paddingRight: '14em',
+      },
+      [theme.breakpoints.up('md')]: {
+        padding: '4em 0.5em 4em 0.5em',
+      },
+      [theme.breakpoints.up('lg')]: {
+        padding: '100px',
       },
     },
     featurePadding: {
@@ -55,7 +64,7 @@ const useStyles = makeStyles({
       paddingLeft: '20px',
     },
     featureGrid: {
-      [theme.breakpoints.down('md')]: {
+      [theme.breakpoints.down('sm')]: {
         display: 'flex',
         flexDirection: 'column',
       },
@@ -64,6 +73,9 @@ const useStyles = makeStyles({
       display: 'flex',
       flexDirection: 'row',
       paddingBottom: '10px',
+      [theme.breakpoints.up('md')]: {
+        paddingBottom: '0px',
+      },
     },
     iPhone: {
       [theme.breakpoints.down('sm')]: {
