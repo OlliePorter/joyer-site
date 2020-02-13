@@ -31,6 +31,10 @@ const useStyles = makeStyles({
   },
   coverPadding: {
     [theme.breakpoints.up('md')]: {
+      marginLeft: '50px',
+      marginRight: '50px',
+    },
+    [theme.breakpoints.up('lg')]: {
       marginLeft: '200px',
       marginRight: '200px',
     },
@@ -38,13 +42,20 @@ const useStyles = makeStyles({
   testimonialRowContainer: {
     display: 'flex',
     justifyContent: 'center',
-    paddingRight: '120px',
     paddingTop: '20px',
     display: 'flex',
     flexDirection: 'row',
     [theme.breakpoints.down('md')]: {
       paddingTop: '10px',
       paddingRight: '0px',
+    },
+    [theme.breakpoints.up('md')]: {
+      paddingRight: '70px',
+    },
+    [theme.breakpoints.up('lg')]: {
+      paddingTop: '10px',
+      paddingRight: '0px',
+      paddingRight: '120px',
     },
   },
   testimonialColumnContainer: {
@@ -70,10 +81,14 @@ const useStyles = makeStyles({
     },
     [theme.breakpoints.up('md')]: {
       paddingLeft: '7px',
-      paddingRight: '15px',
+      paddingRight: '7px',
+      textAlign: 'left',
     },
     [theme.breakpoints.up('lg')]: {
-      backgroundColor: 'blue',
+      paddingLeft: '50px',
+      paddingRight: '50px',
+      textAlign: 'left',
+      fontWeight: 300,
     },
   },
   testimonialTextTitle: {
