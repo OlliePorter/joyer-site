@@ -11,16 +11,29 @@ import theme from '../../theme';
 
 const useStyles = makeStyles({
   card: {
-    width: 380,
     [theme.breakpoints.down('sm')]: {
       marginBottom: '40px',
       width: '90vw',
     },
+    [theme.breakpoints.up('sm')]: {
+      width: '50vw',
+    },
+    [theme.breakpoints.up('md')]: {
+      width: 290,
+    },
+    [theme.breakpoints.up('lg')]: {
+      width: 380,
+    },
   },
   media: {
-    height: 420,
     [theme.breakpoints.down('sm')]: {
       height: 350,
+    },
+    [theme.breakpoints.up('md')]: {
+      height: 300,
+    },
+    [theme.breakpoints.up('lg')]: {
+      height: 420,
     },
   },
   cardIcon: {
