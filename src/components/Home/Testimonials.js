@@ -58,10 +58,22 @@ const useStyles = makeStyles({
     paddingRight: '50px',
     textAlign: 'left',
     fontWeight: 300,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('sm')]: {
       paddingLeft: '30px',
       paddingRight: '30px',
       textAlign: 'center',
+    },
+    [theme.breakpoints.up('sm')]: {
+      paddingLeft: '7px',
+      paddingRight: '15px',
+      textAlign: 'center',
+    },
+    [theme.breakpoints.up('md')]: {
+      paddingLeft: '7px',
+      paddingRight: '15px',
+    },
+    [theme.breakpoints.up('lg')]: {
+      backgroundColor: 'blue',
     },
   },
   testimonialTextTitle: {
