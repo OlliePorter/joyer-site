@@ -43,7 +43,6 @@ const useStyles = makeStyles({
     display: 'flex',
     justifyContent: 'center',
     paddingTop: '20px',
-    display: 'flex',
     flexDirection: 'row',
     [theme.breakpoints.down('md')]: {
       paddingTop: '10px',
@@ -54,7 +53,6 @@ const useStyles = makeStyles({
     },
     [theme.breakpoints.up('lg')]: {
       paddingTop: '10px',
-      paddingRight: '0px',
       paddingRight: '120px',
     },
   },
@@ -136,7 +134,7 @@ export default function Testimonials() {
                   "I feel so much closer to my friends after downloading this app. Go JOYER!"
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/lucy_f.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/lucy_f.jpg'} alt="Female" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Lucy F
@@ -152,7 +150,7 @@ export default function Testimonials() {
                   "I love being able to set reminders to catch up with my network."
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/frederick_s.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/frederick_s.jpg'} alt="Male" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Frederick S
@@ -168,7 +166,7 @@ export default function Testimonials() {
                   "Joy Coins are great! Hands down the best way to earn money off food and drinks."
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/gabbie_h.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/gabbie_h.jpg'} alt="Female" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Gabbie H

@@ -119,7 +119,7 @@ export default function Footer() {
                         hello@joyerapp.com
                         </Typography>
                       </a>
-                      <a href="" className={classes.footerRow}>
+                      <a href="https://www.google.co.uk/maps/place/London/@51.5287718,-0.2416804,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583" target="_blank" rel="noopener noreferrer" className={classes.footerRow}>
                         <MapIcon className={classes.footerIconSmall}/>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
                           London
@@ -133,12 +133,12 @@ export default function Footer() {
                         Legal
                       </Typography>
                     <div className={classes.footerBorder}></div>
-                      <a href="https://drive.google.com/file/d/1CQFASq1SP3kqRxThlgYJTuEzpHqbfwOC/view" target="_blank" className={classes.footerRow}>
+                      <a href="https://drive.google.com/file/d/1CQFASq1SP3kqRxThlgYJTuEzpHqbfwOC/view" target="_blank" rel="noopener noreferrer" className={classes.footerRow}>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
                           Terms and Conditions
                         </Typography>
                       </a>
-                      <a href="https://drive.google.com/file/d/1fCh3jzo2QsYZyfmWP1MJakbFHaqdS9jm/view" target="_blank" className={classes.footerRow}>
+                      <a href="https://drive.google.com/file/d/1fCh3jzo2QsYZyfmWP1MJakbFHaqdS9jm/view" target="_blank" rel="noopener noreferrer" className={classes.footerRow}>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
                           Privacy Policy
                         </Typography>

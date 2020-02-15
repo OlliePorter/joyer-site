@@ -2,7 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
-import SignUpForm from '../Home/SignUpForm'
 
 const useStyles = makeStyles ({
   signUpContainer: {
