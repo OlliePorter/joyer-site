@@ -101,7 +101,9 @@ exports[`Footer renders correctly 1`] = `
             </a>
             <a
               className="makeStyles-footerRow-4"
-              href=""
+              href="https://www.google.co.uk/maps/place/London/@51.5287718,-0.2416804,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <svg
                 aria-hidden="true"
@@ -139,6 +141,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="makeStyles-footerRow-4"
               href="https://drive.google.com/file/d/1CQFASq1SP3kqRxThlgYJTuEzpHqbfwOC/view"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <h6
@@ -150,6 +153,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="makeStyles-footerRow-4"
               href="https://drive.google.com/file/d/1fCh3jzo2QsYZyfmWP1MJakbFHaqdS9jm/view"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <h6

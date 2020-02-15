@@ -25,7 +25,7 @@ exports[`Testimonials renders correctly 1`] = `
             className="makeStyles-testimonialRowContainer-4"
           >
             <img
-              alt="Female Image"
+              alt="Female"
               className="makeStyles-testimonialImage-9"
               src="/lucy_f.jpg"
             />
@@ -57,7 +57,7 @@ exports[`Testimonials renders correctly 1`] = `
             className="makeStyles-testimonialRowContainer-4"
           >
             <img
-              alt="Female Image"
+              alt="Male"
               className="makeStyles-testimonialImage-9"
               src="/frederick_s.jpg"
             />
@@ -89,122 +89,7 @@ exports[`Testimonials renders correctly 1`] = `
             className="makeStyles-testimonialRowContainer-4"
           >
             <img
-              alt="Female Image"
-              className="makeStyles-testimonialImage-9"
-              src="/gabbie_h.jpg"
-            />
-            <div
-              className="makeStyles-testimonialColumnContainer-5"
-            >
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextTitle-7 MuiTypography-body1"
-              >
-                Gabbie H
-              </p>
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextSubtitle-8 MuiTypography-body1"
-              >
-                Early Joyager
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Testimonials renders correctly 1`] = `
-<div
-  className="makeStyles-coverImage-1"
->
-  <div
-    className="makeStyles-coverImageOverlay-2"
-  >
-    <div
-      className="makeStyles-coverPadding-3"
-    >
-      <div
-        className="MuiGrid-root makeStyles-testimonialGrid-11 MuiGrid-container MuiGrid-spacing-xs-8"
-      >
-        <div
-          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
-        >
-          <h6
-            className="MuiTypography-root makeStyles-testimonialText-6 MuiTypography-h6"
-          >
-            "I feel so much closer to my friends after downloading this app. Go JOYER!"
-          </h6>
-          <div
-            className="makeStyles-testimonialRowContainer-4"
-          >
-            <img
-              alt="Female Image"
-              className="makeStyles-testimonialImage-9"
-              src="/lucy_f.jpg"
-            />
-            <div
-              className="makeStyles-testimonialColumnContainer-5"
-            >
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextTitle-7 MuiTypography-body1"
-              >
-                Lucy F
-              </p>
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextSubtitle-8 MuiTypography-body1"
-              >
-                Early Joyager
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
-        >
-          <h6
-            className="MuiTypography-root makeStyles-testimonialText-6 MuiTypography-h6"
-          >
-            "I love being able to set reminders to catch up with my network."
-          </h6>
-          <div
-            className="makeStyles-testimonialRowContainer-4"
-          >
-            <img
-              alt="Female Image"
-              className="makeStyles-testimonialImage-9"
-              src="/frederick_s.jpg"
-            />
-            <div
-              className="makeStyles-testimonialColumnContainer-5"
-            >
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextTitle-7 MuiTypography-body1"
-              >
-                Frederick S
-              </p>
-              <p
-                className="MuiTypography-root makeStyles-testimonialTextSubtitle-8 MuiTypography-body1"
-              >
-                Early Joyager
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
-        >
-          <h6
-            className="MuiTypography-root makeStyles-testimonialText-6 MuiTypography-h6"
-          >
-            "Joy Coins are great! Hands down the best way to earn money off food and drinks."
-          </h6>
-          <div
-            className="makeStyles-testimonialRowContainer-4"
-          >
-            <img
-              alt="Female Image"
+              alt="Female"
               className="makeStyles-testimonialImage-9"
               src="/gabbie_h.jpg"
             />
