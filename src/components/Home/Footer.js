@@ -49,9 +49,26 @@ const useStyles = makeStyles({
     marginBottom: '10px',
   },
   footerBorder: {
-    borderBottom: '1px solid rgba(255,255,255,0.1)',
-    width: '300px',
-    marginBottom: '30px',
+    [theme.breakpoints.down('sm')]: {
+      borderBottom: '1px solid rgba(255,255,255,0.1)',
+      width: '300px',
+      marginBottom: '30px',
+    },
+    [theme.breakpoints.up('sm')]: {
+      borderBottom: '1px solid rgba(255,255,255,0.1)',
+      width: '150px',
+      marginBottom: '30px',
+    },
+    [theme.breakpoints.up('md')]: {
+      borderBottom: '1px solid rgba(255,255,255,0.1)',
+      width: '300px',
+      marginBottom: '30px',
+    },
+    [theme.breakpoints.up('lg')]: {
+      borderBottom: '1px solid rgba(255,255,255,0.1)',
+      width: '300px',
+      marginBottom: '30px',
+    },
   },
   footerIcon: {
     color: theme.palette.footer.icon,
