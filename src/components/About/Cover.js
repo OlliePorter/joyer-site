@@ -1,10 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles({
     title: {

@@ -31,6 +31,10 @@ const useStyles = makeStyles({
   },
   coverPadding: {
     [theme.breakpoints.up('md')]: {
+      marginLeft: '50px',
+      marginRight: '50px',
+    },
+    [theme.breakpoints.up('lg')]: {
       marginLeft: '200px',
       marginRight: '200px',
     },
@@ -38,13 +42,18 @@ const useStyles = makeStyles({
   testimonialRowContainer: {
     display: 'flex',
     justifyContent: 'center',
-    paddingRight: '120px',
     paddingTop: '20px',
-    display: 'flex',
     flexDirection: 'row',
     [theme.breakpoints.down('md')]: {
       paddingTop: '10px',
       paddingRight: '0px',
+    },
+    [theme.breakpoints.up('md')]: {
+      paddingRight: '70px',
+    },
+    [theme.breakpoints.up('lg')]: {
+      paddingTop: '10px',
+      paddingRight: '120px',
     },
   },
   testimonialColumnContainer: {
@@ -58,10 +67,26 @@ const useStyles = makeStyles({
     paddingRight: '50px',
     textAlign: 'left',
     fontWeight: 300,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('sm')]: {
       paddingLeft: '30px',
       paddingRight: '30px',
       textAlign: 'center',
+    },
+    [theme.breakpoints.up('sm')]: {
+      paddingLeft: '7px',
+      paddingRight: '15px',
+      textAlign: 'center',
+    },
+    [theme.breakpoints.up('md')]: {
+      paddingLeft: '7px',
+      paddingRight: '7px',
+      textAlign: 'left',
+    },
+    [theme.breakpoints.up('lg')]: {
+      paddingLeft: '50px',
+      paddingRight: '50px',
+      textAlign: 'left',
+      fontWeight: 300,
     },
   },
   testimonialTextTitle: {
@@ -109,7 +134,7 @@ export default function Testimonials() {
                   "I feel so much closer to my friends after downloading this app. Go JOYER!"
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/lucy_f.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/lucy_f.jpg'} alt="Female" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Lucy F
@@ -125,7 +150,7 @@ export default function Testimonials() {
                   "I love being able to set reminders to catch up with my network."
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/frederick_s.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/frederick_s.jpg'} alt="Male" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Frederick S
@@ -141,7 +166,7 @@ export default function Testimonials() {
                   "Joy Coins are great! Hands down the best way to earn money off food and drinks."
                 </Typography>
                 <div className={classes.testimonialRowContainer}>
-                  <img src={'/gabbie_h.jpg'} alt="Female Image" className={classes.testimonialImage}/>
+                  <img src={'/gabbie_h.jpg'} alt="Female" className={classes.testimonialImage}/>
                   <div className={classes.testimonialColumnContainer}>
                     <Typography className={classes.testimonialTextTitle} variant="body1">
                       Gabbie H

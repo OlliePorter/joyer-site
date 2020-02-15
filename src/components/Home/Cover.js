@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles({
     title: {
@@ -73,7 +72,6 @@ const useStyles = makeStyles({
 });
 
 export default function Cover() {
-  const matches = useMediaQuery('(min-width:600px)');
   const classes = useStyles();
 
     return (

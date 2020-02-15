@@ -2,7 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
-import SignUpForm from '../Home/SignUpForm'
 
 const useStyles = makeStyles ({
   signUpContainer: {
@@ -23,8 +22,6 @@ const useStyles = makeStyles ({
     width: '100%',
   },
   signUpRoundedCorners: {
-    width: '32em',
-    height: '30em',
     backgroundColor: 'white',
     borderRadius: '30px',
     opacity: '0.9',
@@ -34,6 +31,18 @@ const useStyles = makeStyles ({
       marginTop: '4em',
       width: '20em',
       height: '25em',
+    },
+    [theme.breakpoints.up('sm')]: {
+      width: '26em',
+      height: '25em',
+    },
+    [theme.breakpoints.up('md')]: {
+      width: '32em',
+      height: '30em',
+    },
+    [theme.breakpoints.up('lg')]: {
+      width: '32em',
+    height: '30em',
     },
   },
   title: {
