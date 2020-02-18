@@ -23,7 +23,7 @@ const useStyles = makeStyles({
       fontWeight: 300,
       paddingBottom: '70px',
       [theme.breakpoints.down('sm')]: {
-        paddingBottom: '0px',
+        paddingBottom: '30px',
         width: '14em',
       },
     },
@@ -38,7 +38,7 @@ const useStyles = makeStyles({
       },
     },
     featureContainer: {
-      backgroundColor: theme.palette.secondary.light,
+      backgroundColor: 'theme.palette.secondary.light',
       overflowX: 'hidden',
       [theme.breakpoints.down('sm')]: {
         padding: '1.7em',
@@ -79,7 +79,6 @@ const useStyles = makeStyles({
     },
     iPhone: {
       [theme.breakpoints.down('sm')]: {
-        margin: '-1em',
         paddingTop: '2em',
         paddingBottom: '2em',
       },
@@ -92,7 +91,7 @@ export default function Features() {
     return (
     <>
       <div className={classes.featureContainer}>
-        <Grid container spacing={4} align="center" className={classes.featureGrid}>
+        <Grid container spacing={0} align="center" className={classes.featureGrid}>
           <Grid item xs={12}>
             <Typography component="h2" variant="h4" className={classes.title}>
             It's simple...
@@ -120,7 +119,7 @@ export default function Features() {
             <div className={classes.featureRow}>
               <div>
                 <Typography component="h2" variant="h5" className={classes.title} align="right">
-                Reminders, notes & scheduling
+                Reminders & notes
                 </Typography>
                 <Typography component="p" className={classes.subtitle} align="right">
                 Never miss a beat with notes, reminders and scheduling. You'll get a nudge when you need to check in with friends or meet up with someone special.
