@@ -31,7 +31,7 @@ const useStyles = makeStyles({
       backgroundPosition: 'center',
       minHeight: '80vh',
       [theme.breakpoints.down('sm')]: {
-        minHeight: '100vh',
+        minHeight: '95vh',
       },
     },
     heroOverlay: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles({
       minHeight: '80vh',
       width: '100%',
       [theme.breakpoints.down('sm')]: {
-        minHeight: '100vh',
+        minHeight: '95vh',
       },
     },
     button: {
