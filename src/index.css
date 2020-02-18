@@ -81,7 +81,7 @@ body {
   }
 
   .MuiGrid-grid-xs-3 {
-    margin-left: -200px;
+    margin-left: -200px !important;
   }
 
 }
