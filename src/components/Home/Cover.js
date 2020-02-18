@@ -12,7 +12,7 @@ const useStyles = makeStyles({
       margin: '20px',
       [theme.breakpoints.down('md')]: {
         margin: '30px',
-        paddingTop: '30px',
+        paddingTop: '15px',
       },
     },
     subtitle: {

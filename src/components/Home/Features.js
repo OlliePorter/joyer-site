@@ -23,7 +23,7 @@ const useStyles = makeStyles({
       fontWeight: 300,
       paddingBottom: '70px',
       [theme.breakpoints.down('sm')]: {
-        paddingBottom: '30px',
+        paddingBottom: '0px',
         width: '14em',
       },
     },
@@ -91,7 +91,7 @@ export default function Features() {
     return (
     <>
       <div className={classes.featureContainer}>
-        <Grid container spacing={0} align="center" className={classes.featureGrid}>
+        <Grid container spacing={4} align="center" className={classes.featureGrid}>
           <Grid item xs={12}>
             <Typography component="h2" variant="h4" className={classes.title}>
             It's simple...
@@ -166,7 +166,7 @@ export default function Features() {
               Earn Joy Coin
               </Typography>
               <Typography component="p" className={classes.subtitle} align="right">
-              Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from a magical coffee or an artisan cocktail.
+              Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from the best experiences.
               </Typography>
             </div>
             <div>
