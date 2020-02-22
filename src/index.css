@@ -80,6 +80,12 @@ body {
     flex-basis: auto !important;
   }
 
+  .MuiGrid-grid-xs-3 {
+    flex-grow: 0;
+    max-width: min-content !important;
+    flex-basis: 25%;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
