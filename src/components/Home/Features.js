@@ -38,7 +38,7 @@ const useStyles = makeStyles({
       },
     },
     featureContainer: {
-      backgroundColor: theme.palette.secondary.light,
+      backgroundColor: 'theme.palette.secondary.light',
       overflowX: 'hidden',
       [theme.breakpoints.down('sm')]: {
         padding: '1.7em',
@@ -79,7 +79,6 @@ const useStyles = makeStyles({
     },
     iPhone: {
       [theme.breakpoints.down('sm')]: {
-        margin: '-1em',
         paddingTop: '2em',
         paddingBottom: '2em',
       },
@@ -120,7 +119,7 @@ export default function Features() {
             <div className={classes.featureRow}>
               <div>
                 <Typography component="h2" variant="h5" className={classes.title} align="right">
-                Reminders, notes & scheduling
+                Reminders & notes
                 </Typography>
                 <Typography component="p" className={classes.subtitle} align="right">
                 Never miss a beat with notes, reminders and scheduling. You'll get a nudge when you need to check in with friends or meet up with someone special.
@@ -167,7 +166,7 @@ export default function Features() {
               Earn Joy Coin
               </Typography>
               <Typography component="p" className={classes.subtitle} align="right">
-              Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from a magical coffee or an artisan cocktail.
+              Collect reward points after every social interaction through JOYER to access discounts with our partners. Take your pick from the best experiences.
               </Typography>
             </div>
             <div>
