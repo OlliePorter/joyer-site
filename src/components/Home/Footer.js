@@ -116,7 +116,7 @@ export default function Footer() {
                       <a href="mailto:hello@joyerapp.com" className={classes.footerRow}>
                         <DraftsIcon className={classes.footerIconSmall}/>
                         <Typography className={classes.footerTextSubtitle} variant="subtitle1">
-                        hello@joyerapp.com
+                        hello@joyer.app
                         </Typography>
                       </a>
                       <a href="https://www.google.co.uk/maps/place/London/@51.5287718,-0.2416804,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583" target="_blank" rel="noopener noreferrer" className={classes.footerRow}>
