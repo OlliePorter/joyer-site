@@ -82,7 +82,7 @@ export default function Cover() {
             Love Your Clan.
           </Typography>
           <Typography component="h2" variant="h6" align="center" className={classes.subtitle}>
-          JOYER is a wellbeing app which cultivates relationships. It's the best way to maintain strong connections and bring balance to your social headspace.
+          JOYER is a wellbeing app for building high quality social connections. It’s the best way to maintain strong relationships and bring balance to your headspace.
           </Typography>
           <Button variant="contained" className={classes.button}>Coming Soon</Button>
           <KeyboardArrowDownIcon className={classes.downIcon} />
