@@ -9,7 +9,7 @@ import {
 import Home from '../Home/Home';
 import About from '../About/About';
 import SignUp from '../SignUp/SignUp';
-import Logo from '../../assets/JOYER_app_logo.png';
+import Logo from '../../assets/JOYER_APP_LOGO.png';
 import Button from '@material-ui/core/Button';
 
 function App() {
