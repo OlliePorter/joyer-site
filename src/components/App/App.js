@@ -9,6 +9,7 @@ import {
 import Home from '../Home/Home';
 import About from '../About/About';
 import SignUp from '../SignUp/SignUp';
+import DiscountLandingPage from '../DiscountLandingPage/DiscountLandingPage';
 import Logo from '../../assets/JOYER_APP_LOGO.png';
 import Button from '@material-ui/core/Button';
 
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/about-us" component={About}/>
           <Route exact path="/sign-up" component={SignUp}/>
+          <Route exact path="/discount" component={DiscountLandingPage}/>
         </div>
       </div>
     </HashRouter>
