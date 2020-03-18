@@ -4,10 +4,12 @@ import Features from './Features';
 import Testimonials from './Testimonials';
 import SignUpForm from './SignUpForm';
 import Footer from './Footer';
+import NavBar from '../NavBar/NavBar';
 
 export default function Home() {
     return (
     <>
+      <NavBar/>
       <Cover/>
       <Features/>
       <Testimonials/>

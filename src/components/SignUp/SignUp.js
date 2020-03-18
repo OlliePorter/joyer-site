@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
+import NavBar from '../NavBar/NavBar';
 
 const useStyles = makeStyles ({
   signUpContainer: {
@@ -122,29 +123,32 @@ export default function SignUp() {
   const classes = useStyles();
 
   return(
-    <div className={classes.signUpContainer}>
-      <div className={classes.signUpContainerOverlay}>
-        <div className={classes.signUpRoundedCorners}>
-          <Typography component="h2" variant="h4" className={classes.title}>
-            Become a Joyager
-          </Typography>
-          <Typography component="p" className={classes.subtitle}>
-          Subscribe for the latest updates.
-          </Typography>
-          <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-            <div className="mc-field-group">
-              <input type="text" name="FNAME" className={classes.nameInput} id="mce-FNAME" placeholder="First Name"/>
-              <input type="text" name="LNAME" className={classes.nameInput} id="mce-LNAME" placeholder="Last Name"/>
-            </div>
-            <div>
-              <input type="email" name="EMAIL" className={classes.emailInput} id="mce-EMAIL" placeholder="Email"/>
-            </div>
-            <div>
-              <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign Up" className={classes.signUpButton}/>
-            </div>
-          </form>
+    <>
+      <NavBar/> 
+      <div className={classes.signUpContainer}>
+        <div className={classes.signUpContainerOverlay}>
+          <div className={classes.signUpRoundedCorners}>
+            <Typography component="h2" variant="h4" className={classes.title}>
+              Become a Joyager
+            </Typography>
+            <Typography component="p" className={classes.subtitle}>
+            Subscribe for the latest updates.
+            </Typography>
+            <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+              <div className="mc-field-group">
+                <input type="text" name="FNAME" className={classes.nameInput} id="mce-FNAME" placeholder="First Name"/>
+                <input type="text" name="LNAME" className={classes.nameInput} id="mce-LNAME" placeholder="Last Name"/>
+              </div>
+              <div>
+                <input type="email" name="EMAIL" className={classes.emailInput} id="mce-EMAIL" placeholder="Email"/>
+              </div>
+              <div>
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Sign Up" className={classes.signUpButton}/>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
