@@ -16,6 +16,12 @@ testimonialImage: {
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
+    [theme.breakpoints.down('md')]: {
+        padding: '10px',
+        },
+    [theme.breakpoints.up('md')]: {
+        padding: '0',
+        },
     },
     speechSquare: {
     background: 'white',
@@ -50,7 +56,7 @@ const classes = useStyles();
             </Typography>
         </div>
         <div className={classes.speechCircle}></div>
-        <img src={'/deanna.jpeg'} alt="Image of female" className={classes.testimonialImage}/>
+        <img src={props.imageLink} alt="Image of person" className={classes.testimonialImage}/>
     </div>
     );
 }
