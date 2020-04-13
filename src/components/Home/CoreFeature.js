@@ -11,7 +11,7 @@ const useStyles = makeStyles({
         paddingTop: '180px',
         paddingLeft: '50px',
         [theme.breakpoints.down('md')]: {
-            paddingTop: '80px',
+            paddingTop: '40px',
             textAlign: 'center',
             paddingLeft: '0px',
         },
@@ -79,7 +79,7 @@ const useStyles = makeStyles({
             width: '600px',
             height: '600px',
             alignSelf: 'center',
-            paddingBottom: '80px',
+            paddingBottom: '20px',
         },
     }
 });
