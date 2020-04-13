@@ -9,6 +9,7 @@ const useStyles = makeStyles({
         fontWeight: 600,
         margin: '0px',
         paddingTop: '180px',
+        paddingLeft: '50px',
         [theme.breakpoints.down('md')]: {
             paddingTop: '80px',
             textAlign: 'center',
@@ -34,9 +35,10 @@ const useStyles = makeStyles({
             textAlign: 'center',
         },
         [theme.breakpoints.up('lg')]: {
-            width: '85%',
+            width: '70%',
             padding: '0px',
             textAlign: 'left',
+            paddingLeft: '50px',
         },
     },
     coverText: {
@@ -49,8 +51,8 @@ const useStyles = makeStyles({
         padding: '30px',
         display: 'flex',
         justifyContent: 'flex-end',
-        paddingLeft: '278px',
-        paddingRight: '240px',
+        paddingLeft: '200px',
+        paddingRight: '200px',
         [theme.breakpoints.down('md')]: {
             padding: '0px',
             flexDirection: 'column',
@@ -69,11 +71,11 @@ const useStyles = makeStyles({
         },
     },
     iPhone: {
-        width: '520px',
+        width: '540px',
         height: '600px',
         objectFit: 'contain',
         [theme.breakpoints.down('md')]: {
-            width: '400px',
+            width: '600px',
             height: '600px',
             alignSelf: 'center',
             paddingBottom: '80px',
