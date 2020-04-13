@@ -2,8 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
-import { ReactComponent as IphoneGoals } from '../../assets/iphone_joyage.svg';
-import { ReactComponent as IphoneNotifications } from '../../assets/notifications.svg';
 
 const useStyles = makeStyles({
     title: {
@@ -61,6 +59,7 @@ const useStyles = makeStyles({
     iPhone: {
         width: '600px',
         height: '600px',
+        objectFit: 'contain',
         [theme.breakpoints.down('md')]: {
             width: '400px',
             height: '600px',
@@ -73,19 +72,6 @@ const useStyles = makeStyles({
 export default function CoreFeature(props) {
 const classes = useStyles();
 
-let component = null;
-console.log(props.imageLink);
-switch(props.imageLink) {
-  case "iphone_joyage.svg":
-    component = <IphoneGoals className={classes.iPhone}/>;
-    break;
-  case "iphone_notifications.svg":
-    component = <IphoneNotifications className={classes.iPhone}/>;
-    break;
-  default:
-    component = 'bloop';
-}
-console.log(component);
 return(
         <div className={classes.coverBackground}>
             <div>
@@ -96,7 +82,7 @@ return(
                 {props.body}
                 </Typography>
             </div>
-            {component}
+            <img src={props.imageSrc} className={classes.iPhone} alt={props.imageAlt} />
         </div>
     );
 }
