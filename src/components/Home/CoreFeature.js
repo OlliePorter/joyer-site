@@ -19,7 +19,6 @@ const useStyles = makeStyles({
         padding: '8px',
         fontWeight: 300,
         paddingBottom: '8em',
-        width: '60%',
         [theme.breakpoints.down('sm')]: {
             paddingBottom: '1em',
             width: '80%',
@@ -35,7 +34,7 @@ const useStyles = makeStyles({
             textAlign: 'center',
         },
         [theme.breakpoints.up('lg')]: {
-            width: '60%',
+            width: '85%',
             padding: '0px',
             textAlign: 'left',
         },
@@ -46,18 +45,31 @@ const useStyles = makeStyles({
         textAlign: 'center',
         justifyContent: 'center',
     },
-    coverBackground: {
-        padding: '70px',
+    coverBackgroundLeft: {
+        padding: '30px',
         display: 'flex',
         justifyContent: 'flex-end',
-        paddingLeft: '180px',
+        paddingLeft: '278px',
+        paddingRight: '240px',
+        [theme.breakpoints.down('md')]: {
+            padding: '0px',
+            flexDirection: 'column',
+        },
+    },
+    coverBackgroundRight: {
+        padding: '30px',
+        display: 'flex',
+        justifyContent: 'flex-end',
+        paddingLeft: '200px',
+        paddingRight: '200px',
+        flexDirection: 'row-reverse',
         [theme.breakpoints.down('md')]: {
             padding: '0px',
             flexDirection: 'column',
         },
     },
     iPhone: {
-        width: '600px',
+        width: '520px',
         height: '600px',
         objectFit: 'contain',
         [theme.breakpoints.down('md')]: {
@@ -72,8 +84,15 @@ const useStyles = makeStyles({
 export default function CoreFeature(props) {
 const classes = useStyles();
 
+let swapContainer = null
+if (props.direction == 'left') {
+    swapContainer = classes.coverBackgroundLeft;
+  } else {
+    swapContainer = classes.coverBackgroundRight;
+  }
+
 return(
-        <div className={classes.coverBackground}>
+        <div className={swapContainer}>
             <div>
                 <Typography component="h2" variant="h3" className={classes.title}>
                 {props.title}
