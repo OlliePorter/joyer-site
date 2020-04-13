@@ -13,6 +13,7 @@ const useStyles = makeStyles({
         [theme.breakpoints.down('md')]: {
             paddingTop: '80px',
             textAlign: 'center',
+            paddingLeft: '0px',
         },
     },
     subtitle: {
