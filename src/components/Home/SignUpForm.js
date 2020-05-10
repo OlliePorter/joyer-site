@@ -6,7 +6,7 @@ import theme from '../../theme';
 const useStyles = makeStyles({
   signUpBackground: {
     height: '100%',
-    backgroundColor: theme.palette.secondary.light,
+    color: theme.palette.primary.main,
     textAlign: 'center',
     padding: '70px',
     [theme.breakpoints.down('sm')]: {

@@ -62,11 +62,11 @@ const useStyles = makeStyles({
         transform: 'scale(3)',
         paddingTop: '40px',
         paddingBottom: '40px',
-      }
+    }
 });
 
 export default function TitleInfo() {
-  const classes = useStyles();
+    const classes = useStyles();
 
     return (
     <div className={classes.textContainer}>

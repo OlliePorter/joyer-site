@@ -3,6 +3,7 @@ import Cover from './Cover';
 import TitleInfo from './TitleInfo';
 import CoreFeature from './CoreFeature';
 import SignUpForm from './SignUpForm';
+import Message from './Message';
 import Footer from './Footer';
 import joyage from '../../assets/joyage.png';
 import notifications from '../../assets/notifications.png';
@@ -34,6 +35,7 @@ export default function Home() {
         imageAlt={'discounts'}
         direction={'left'}
       />
+      <Message/>
       <SignUpForm/>
       <Footer/>
     </>
