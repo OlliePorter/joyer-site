@@ -27,7 +27,7 @@ const useStyles = makeStyles({
       },
     },
     heroContent: {
-      backgroundImage: 'url(/digital-chat2.jpg)',
+      backgroundImage: 'url(/digital-chat-guy-alt.jpg)',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',

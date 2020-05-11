@@ -50,15 +50,12 @@ const useStyles = makeStyles({
     },
     textCard: {
         width: "800px",
-        height: "270px",
+        height: "100%",
         background: "white",
         boxShadow: "0 0 20px -2px rgba(0, 0, 0, 0.1)",
         borderRadius: "8px",
         padding: "30px",
-
-        [theme.breakpoints.down('sm')]: {
-            height: "420px",
-        },
+        paddingBottom: "50px",
     }
 });
 
