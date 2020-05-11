@@ -113,7 +113,7 @@ export default function Stats() {
                       60%
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      of people end conversations in less.
+                      of people end conversations within 90 seconds.
                     </Typography>
                   </div>
                 </Grid>
