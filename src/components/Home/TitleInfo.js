@@ -75,7 +75,7 @@ export default function TitleInfo() {
             Just Optimise Your Everyday Relationships.
         </Typography>
         <Typography component="h2" variant="h6" className={classes.subtitle} align="center">
-            Social distancing has isolated the global community away from face-to-face contact due to Coronavirus. These new social distancing measures are already having a profound impact on people’s mental health, with loneliness and mental health issues at an all time high. JOYER is here to help. Our goal is simple — provide a wellbeing app which promotes digital interactions and enables users to send discounted gifts to loved ones. Here's how it works:
+            Social distancing has isolated the global community away from face-to-face contact due to Coronavirus. These new social distancing measures are already having a profound impact on people’s mental health, with loneliness and anxiety issues at an all time high. JOYER is here to help. Our goal is simple — provide a wellbeing app which promotes digital interactions and enables users to send discounted gifts to loved ones. Here's how it works:
         </Typography>
     </div>
     );
