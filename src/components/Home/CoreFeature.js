@@ -36,6 +36,7 @@ const useStyles = makeStyles({
             textAlign: 'center',
         },
         [theme.breakpoints.up('lg')]: {
+            width: '70%',
             padding: '0px',
             textAlign: 'left',
             paddingLeft: '50px',
