@@ -1,10 +1,9 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import ScheduleIcon from '@material-ui/icons/Schedule';
+import HomeIcon from '@material-ui/icons/Home';
 import SentimentDissatisfiedIcon from '@material-ui/icons/SentimentDissatisfied';
-import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import { makeStyles } from '@material-ui/core/styles';
+import PhoneDisabledIcon from '@material-ui/icons/PhoneDisabled';import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
 
 const useStyles = makeStyles({
@@ -87,12 +86,12 @@ export default function Stats() {
               <Grid container spacing={6} className={classes.statsGrid}>
                 <Grid item xs={4}>
                   <div className={classes.statsColumnContainer}>
-                    <ScheduleIcon className={classes.statsIcon}/>
+                    <HomeIcon className={classes.statsIcon}/>
                     <Typography className={classes.statsTextTitle} component="h2" variant="h5">
-                      9 hours
+                      000,000s
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      The time people spend consuming media on social platforms each day.
+                      of people stuck inside.
                     </Typography>
                   </div>
                 </Grid>
@@ -103,18 +102,18 @@ export default function Stats() {
                       1 in 4
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      People experience mental health problems each year.
+                      experience mental health problems.
                     </Typography>
                   </div>
                 </Grid>
                 <Grid item xs={4}>
                   <div className={classes.statsColumnContainer}>
-                    <SupervisedUserCircleIcon className={classes.statsIcon}/>
+                    <PhoneDisabledIcon className={classes.statsIcon}/>
                     <Typography className={classes.statsTextTitle} component="h2" variant="h5">
-                      Quantity > Quality
+                      60%
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      Apps today promote extensive friend lists over of high quality relationships.
+                      of people end conversations in less than 90 seconds.
                     </Typography>
                   </div>
                 </Grid>

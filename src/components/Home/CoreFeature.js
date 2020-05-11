@@ -22,7 +22,7 @@ const useStyles = makeStyles({
         fontWeight: 300,
         paddingBottom: '8em',
         [theme.breakpoints.down('sm')]: {
-            paddingBottom: '1em',
+            paddingBottom: '2em',
             width: '80%',
             padding: '35px',
             textAlign: 'center',
@@ -72,8 +72,8 @@ const useStyles = makeStyles({
         },
     },
     iPhone: {
-        width: '540px',
-        height: '600px',
+        width: '400px',
+        height: '700px',
         objectFit: 'contain',
         [theme.breakpoints.down('md')]: {
             width: '600px',
@@ -97,7 +97,7 @@ if (props.direction == 'left') {
 return(
         <div className={swapContainer}>
             <div>
-                <Typography component="h2" variant="h3" className={classes.title}>
+                <Typography component="h2" variant="h4" className={classes.title}>
                 {props.title}
                 </Typography>
                 <Typography component="h2" variant="h6" className={classes.subtitle}>

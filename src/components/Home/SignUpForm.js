@@ -6,7 +6,7 @@ import theme from '../../theme';
 const useStyles = makeStyles({
   signUpBackground: {
     height: '100%',
-    backgroundColor: theme.palette.secondary.light,
+    color: theme.palette.primary.main,
     textAlign: 'center',
     padding: '70px',
     [theme.breakpoints.down('sm')]: {
@@ -88,7 +88,7 @@ export default function SignUpForm() {
       Become a Joyager
       </Typography>
       <Typography component="p" className={classes.subtitle}>
-      Subscribe for the latest updates.
+      Join today to strengthen your social connections.
       </Typography>
       <form action="https://joyerapp.us20.list-manage.com/subscribe/post?u=9c4cca26d3bea1021320b9967&id=10b0082a7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
         <div className="mc-field-group">

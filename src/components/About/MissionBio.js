@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
@@ -68,16 +67,9 @@ export default function MissionBio() {
         <div className={classes.circleBackground}>
           <ChatBubbleOutlineIcon className={classes.speechIcon}/>
         </div>
-        <Typography component="p" className={classes.aboutText}>
-          We live in a hyperconnected world driven by endless chimes and beeps of continuously arriving text messages, Tweets and Facebook updates. This interconnectivity has revolutionised the way we communicate, but today many of us find it difficult to maintain close relationships with everyone in our social circle. This is because of the busyness of our daily lives, extensive social media connections and no standardised tool to promote face-to-face contact.
+        <Typography component="p" className={classes.aboutText} align="center">
+        We live in unprecedented times. In a matter of days, a global pandemic turned the world upside down and fundamentally altered our daily lives. Naturally, governments around the world enacted a social distancing policy to reduce the spread of the virus, but these new measures have already begun to adversely affect the mental health of the global population. Enter JOYER, a wellbeing app for building high quality social connections. It’s the best way to maintain strong relationships and bring balance to your headspace. We developed JOYER to become the greatest tool in everyone’s social arsenal — a personal CRM which brings us all closer to those who matter.
         </Typography>
-        <Typography component="p" className={classes.aboutText}>
-          We believe in a world where social still has a soul. Where the quality of our interpersonal relationships are valued higher than extensive social circles.
-        </Typography>
-        <Typography component="p" className={classes.aboutText}>
-          JOYER is a social app which promotes the authenticity of connection through memorable offline interactions, relationship cultivation and contextual reminders. We hope you love it as much as we do.
-        </Typography>
-        <Button variant="contained" className={classes.button}>Find out more</Button>
       </div>
     </>
     );

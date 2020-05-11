@@ -11,6 +11,8 @@ import theme from '../../theme';
 
 const useStyles = makeStyles({
   card: {
+    boxShadow: "0 0 20px -2px rgba(0, 0, 0, 0.1)",
+    borderRadius: "8px",
     [theme.breakpoints.down('sm')]: {
       marginBottom: '40px',
       width: '90vw',

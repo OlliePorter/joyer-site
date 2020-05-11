@@ -27,7 +27,7 @@ const useStyles = makeStyles({
       },
     },
     heroContent: {
-      backgroundImage: 'url(/joyer-group.png)',
+      backgroundImage: 'url(/women-phone.jpg)',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
@@ -85,15 +85,15 @@ export default function Cover() {
       <div className={classes.heroContent}>
         <div className={classes.heroOverlay}>
           <Typography component="h2" variant="h3" align="center" className={classes.title}>
-            The Personal CRM. Reimagined.
+            Stay Connected During Covid.
           </Typography>
           <Typography component="h2" variant="h6" align="center" className={classes.subtitle}>
             JOYER is a wellbeing app for building high quality social connections. It’s the best way to maintain strong relationships and bring balance to your headspace.
           </Typography>
           <div className={classes.speechContainer}>
             <SpeechBubble title={'"I feel so much closer to my friends after using this app."'} imageLink={"/deanna.jpeg"}/>
-            <SpeechBubble title={'"Hands down the best way to earn money off food and drinks."'} imageLink={"/francis.jpeg"}/>
-            <SpeechBubble title={'"Love being able to set reminders to catch up with my people."'} imageLink={"/oleg.jpeg"}/>
+            <SpeechBubble title={'"I love being able to send discounted gifts to my Clan members."'} imageLink={"/francis.jpeg"}/>
+            <SpeechBubble title={'"It\'s so easy to stay in touch thanks to personalised reminders. "'} imageLink={"/oleg.jpeg"}/>
           </div>
         </div>
       </div>
