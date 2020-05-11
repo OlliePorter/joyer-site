@@ -91,7 +91,7 @@ export default function Stats() {
                       000,000s
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      of people stuck inside.
+                      of people currently stuck inside.
                     </Typography>
                   </div>
                 </Grid>
@@ -113,7 +113,7 @@ export default function Stats() {
                       60%
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      of people end conversations in less than 90 seconds.
+                      of people end conversations in less.
                     </Typography>
                   </div>
                 </Grid>

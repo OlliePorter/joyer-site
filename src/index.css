@@ -83,8 +83,11 @@ body {
     flex-grow: 0;
     max-width: min-content !important;
     flex-basis: 25%;
-    }
+  }
 
+  .MuiGrid-spacing-xs-6 > .MuiGrid-item {
+    padding: 90px !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
