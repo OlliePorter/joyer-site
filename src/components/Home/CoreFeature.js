@@ -72,10 +72,8 @@ const useStyles = makeStyles({
         },
     },
     iPhone: {
-        width: '400px',
-        height: '700px',
-        objectFit: 'contain',
         [theme.breakpoints.down('md')]: {
+            objectFit: 'contain',
             width: '600px',
             height: '600px',
             alignSelf: 'center',
