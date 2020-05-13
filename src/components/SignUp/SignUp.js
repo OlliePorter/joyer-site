@@ -5,7 +5,7 @@ import theme from '../../theme';
 
 const useStyles = makeStyles ({
   signUpContainer: {
-      backgroundImage: 'url(/joyer-group.png)',
+      backgroundImage: 'url(/women-phone.jpg)',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
@@ -31,10 +31,12 @@ const useStyles = makeStyles ({
       marginTop: '4em',
       width: '20em',
       height: '25em',
+      paddingBottom: '2em',
     },
     [theme.breakpoints.up('sm')]: {
       width: '26em',
       height: '25em',
+      paddingBottom: '2em',
     },
     [theme.breakpoints.up('md')]: {
       width: '32em',

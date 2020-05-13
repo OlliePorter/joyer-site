@@ -32,8 +32,8 @@ const useStyles = makeStyles({
         [theme.breakpoints.up('md')]: {
         },
         [theme.breakpoints.up('lg')]: {
-            paddingLeft: '300px',
-            paddingRight: '300px',
+            paddingLeft: '11em',
+            paddingRight: '11em',
             paddingBottom: '20px',
         },
     },
