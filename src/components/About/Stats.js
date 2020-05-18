@@ -3,7 +3,8 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import HomeIcon from '@material-ui/icons/Home';
 import SentimentDissatisfiedIcon from '@material-ui/icons/SentimentDissatisfied';
-import PhoneDisabledIcon from '@material-ui/icons/PhoneDisabled';import { makeStyles } from '@material-ui/core/styles';
+import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
+import { makeStyles } from '@material-ui/core/styles';
 import theme from '../../theme';
 
 const useStyles = makeStyles({
@@ -108,12 +109,12 @@ export default function Stats() {
                 </Grid>
                 <Grid item xs={4}>
                   <div className={classes.statsColumnContainer}>
-                    <PhoneDisabledIcon className={classes.statsIcon}/>
+                    <EmojiPeopleIcon className={classes.statsIcon}/>
                     <Typography className={classes.statsTextTitle} component="h2" variant="h5">
-                      60%
+                      9+ Million
                     </Typography>
                     <Typography className={classes.statsTextSubtitle} variant="body1">
-                      of people end conversations within 90 seconds.
+                      people say they are often lonely.
                     </Typography>
                   </div>
                 </Grid>
